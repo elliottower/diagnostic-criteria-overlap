@@ -1,0 +1,235 @@
+{
+  "question": "on the corpus tables whose cells are known, what does each method return?",
+  "tables": 5,
+  "point_exact": 3,
+  "point_largest_cell_error_max": 3,
+  "enumeration_contains_true": 5,
+  "enumeration_unique": 4,
+  "rows": [
+    {
+      "key": "guerra2026",
+      "condition": "Multiple sclerosis",
+      "N": 20306,
+      "true_cells": [
+        326,
+        540,
+        1277,
+        18163
+      ],
+      "point_reconstruction": [
+        323,
+        543,
+        1280,
+        18160
+      ],
+      "point_largest_cell_error": 3,
+      "point_exact": false,
+      "enumeration_candidates": 11,
+      "enumeration_contains_true": true,
+      "enumeration_n11_range": [
+        320,
+        330
+      ],
+      "inputs_supplied": {
+        "statistic_to_conv2x2": "phi",
+        "phi_rounded": "0.23",
+        "phi_exact": 0.232864,
+        "decimals": 2,
+        "conv2x2_args": {
+          "ri": "0.23",
+          "ni": 20306,
+          "n1i": 866,
+          "n2i": 1603
+        },
+        "statistic_to_enum2x2": "unweighted Cohen kappa",
+        "kappa_as_printed": "0.22",
+        "enum2x2_args": {
+          "n": 20306,
+          "n_a": 866,
+          "n_b": 1603,
+          "kappa": "0.22"
+        }
+      }
+    },
+    {
+      "key": "meagher2014_strict",
+      "condition": "Delirium",
+      "N": 768,
+      "true_cells": [
+        155,
+        355,
+        3,
+        255
+      ],
+      "point_reconstruction": [
+        155,
+        355,
+        3,
+        255
+      ],
+      "point_largest_cell_error": 0,
+      "point_exact": true,
+      "enumeration_candidates": 1,
+      "enumeration_contains_true": true,
+      "enumeration_n11_range": [
+        155,
+        155
+      ],
+      "inputs_supplied": {
+        "statistic_to_conv2x2": "phi",
+        "phi_rounded": "0.34",
+        "phi_exact": 0.341524,
+        "decimals": 2,
+        "conv2x2_args": {
+          "ri": "0.34",
+          "ni": 768,
+          "n1i": 510,
+          "n2i": 158
+        },
+        "statistic_to_enum2x2": "unweighted Cohen kappa",
+        "kappa_as_printed": "0.22",
+        "enum2x2_args": {
+          "n": 768,
+          "n_a": 510,
+          "n_b": 158,
+          "kappa": "0.22"
+        }
+      }
+    },
+    {
+      "key": "meagher2014_permissive",
+      "condition": "Delirium",
+      "N": 768,
+      "true_cells": [
+        455,
+        55,
+        11,
+        247
+      ],
+      "point_reconstruction": [
+        455,
+        55,
+        11,
+        247
+      ],
+      "point_largest_cell_error": 0,
+      "point_exact": true,
+      "enumeration_candidates": 1,
+      "enumeration_contains_true": true,
+      "enumeration_n11_range": [
+        455,
+        455
+      ],
+      "inputs_supplied": {
+        "statistic_to_conv2x2": "phi",
+        "phi_rounded": "0.82",
+        "phi_exact": 0.821434,
+        "decimals": 2,
+        "conv2x2_args": {
+          "ri": "0.82",
+          "ni": 768,
+          "n1i": 510,
+          "n2i": 466
+        },
+        "statistic_to_enum2x2": "unweighted Cohen kappa",
+        "kappa_as_printed": "0.82",
+        "enum2x2_args": {
+          "n": 768,
+          "n_a": 510,
+          "n_b": 466,
+          "kappa": "0.82"
+        }
+      }
+    },
+    {
+      "key": "inoue2012_fpg",
+      "condition": "Diabetes",
+      "N": 7328,
+      "true_cells": [
+        125,
+        28,
+        49,
+        7126
+      ],
+      "point_reconstruction": [
+        125,
+        28,
+        49,
+        7126
+      ],
+      "point_largest_cell_error": 0,
+      "point_exact": true,
+      "enumeration_candidates": 1,
+      "enumeration_contains_true": true,
+      "enumeration_n11_range": [
+        125,
+        125
+      ],
+      "inputs_supplied": {
+        "statistic_to_conv2x2": "phi",
+        "phi_rounded": "0.76",
+        "phi_exact": 0.760818,
+        "decimals": 2,
+        "conv2x2_args": {
+          "ri": "0.76",
+          "ni": 7328,
+          "n1i": 153,
+          "n2i": 174
+        },
+        "statistic_to_enum2x2": "unweighted Cohen kappa",
+        "kappa_as_printed": "0.759",
+        "enum2x2_args": {
+          "n": 7328,
+          "n_a": 153,
+          "n_b": 174,
+          "kappa": "0.759"
+        }
+      }
+    },
+    {
+      "key": "inoue2012_hba1c",
+      "condition": "Diabetes",
+      "N": 7328,
+      "true_cells": [
+        129,
+        24,
+        46,
+        7129
+      ],
+      "point_reconstruction": [
+        128,
+        25,
+        47,
+        7128
+      ],
+      "point_largest_cell_error": 1,
+      "point_exact": false,
+      "enumeration_candidates": 1,
+      "enumeration_contains_true": true,
+      "enumeration_n11_range": [
+        129,
+        129
+      ],
+      "inputs_supplied": {
+        "statistic_to_conv2x2": "phi",
+        "phi_rounded": "0.78",
+        "phi_exact": 0.783568,
+        "decimals": 2,
+        "conv2x2_args": {
+          "ri": "0.78",
+          "ni": 7328,
+          "n1i": 153,
+          "n2i": 175
+        },
+        "statistic_to_enum2x2": "unweighted Cohen kappa",
+        "kappa_as_printed": "0.782",
+        "enum2x2_args": {
+          "n": 7328,
+          "n_a": 153,
+          "n_b": 175,
+          "kappa": "0.782"
+        }
+      }
+    }
+  ]
+}

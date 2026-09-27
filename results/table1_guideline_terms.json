@@ -1,0 +1,62 @@
+{
+  "description": "Term counts in the GRRAS and STARD checklist items",
+  "sources": {
+    "grras": {
+      "citation": "kottner2011",
+      "file": "kottner2011.checklist.txt",
+      "sha256": "f091337df58b3aeb6319d5c0b05874b1785e7bbd0b4f2c42fca744bdc41b714b",
+      "n_items": 15,
+      "scope": "Table 1 checklist items only, not the surrounding paper"
+    },
+    "stard": {
+      "citation": "bossuyt2015",
+      "file": "bossuyt2015.xml",
+      "sha256": "062eaf03256c8e46d157c19b0052f671eafbb4a39bb9065106b909bfb837be5b",
+      "n_items": 30,
+      "scope": "the 30-item checklist only, not the surrounding paper"
+    }
+  },
+  "counts": {
+    "reference standard": {
+      "grras": 0,
+      "stard": 11
+    },
+    "index test": {
+      "grras": 0,
+      "stard": 12
+    },
+    "diagnostic accuracy": {
+      "grras": 0,
+      "stard": 4
+    },
+    "sensitivity": {
+      "grras": 0,
+      "stard": 1
+    },
+    "specificity": {
+      "grras": 0,
+      "stard": 1
+    },
+    "rater": {
+      "grras": 6,
+      "stard": 0
+    },
+    "reliability": {
+      "grras": 3,
+      "stard": 0
+    },
+    "agreement": {
+      "grras": 3,
+      "stard": 0
+    },
+    "replicate": {
+      "grras": 2,
+      "stard": 0
+    },
+    "repeated measurement": {
+      "grras": 1,
+      "stard": 0
+    }
+  },
+  "vocabularies_disjoint": true
+}

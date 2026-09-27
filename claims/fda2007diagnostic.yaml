@@ -1,0 +1,17 @@
+claim: fda2007diagnostic
+title: Quotations from fda2007diagnostic used in criterion_agreement_v1.tex
+source:
+  citation: fda2007diagnostic
+  local: reference/fda2007diagnostic.txt
+  sha256: b2a25ea9eb0777e2c88a728f3c2e845edba3c3a6446fd1ecbb432791bbd4836b
+  tier: fulltext
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: false
+  note: FDA guidance PDF, fda.gov/media/71147/download, retrieved 2026-08-26
+claims:
+  reference-standard-required-for-sensitivity:
+    statement: Sensitivity and specificity are not available where the comparator is not a reference standard.
+    verified: true
+    quotes:
+    - exact: When a new test is evaluated by comparison to a non-reference standard, sensitivity and specificity
+        are not appropriate terms to describe the comparative results

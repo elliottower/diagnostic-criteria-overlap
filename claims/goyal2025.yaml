@@ -1,0 +1,42 @@
+claim: goyal2025
+title: Quotations from goyal2025 used in criterion_agreement_v9h.tex
+source:
+  citation: goyal2025
+  local: reference/goyal2025.txt
+  sha256: a7475d580701ffedefe38a54d1387e5a39208b4fb064bf42f7ccb2f55add008c
+  tier: pdf
+  retrieved_from: sent by the corresponding author on request, rendered with pdftotext -layout
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: true
+  note: >-
+    The article is set in two columns and the text render interleaves them, so
+    several sentences are interrupted mid-clause by text from the facing column.
+    Quotations below are pinned as the fragments that survive that interleaving.
+claims:
+  fifty-five-pairwise-comparisons:
+    statement: >-
+      Eleven gestational diabetes criteria were applied to one cohort and all 55
+      pairwise comparisons reported.
+    verified: true
+    quotes:
+    - exact: A total of 55 pair-wise comparisons were performed
+      section: "3.2"
+    - exact: "Records of 353 pregnant women with oral glucose tolerance test performed after 20 weeks of gestation"
+      section: Abstract
+    - exact: "353 participants were recruited"
+      section: "2.5"
+  agreement-reported-as-a-coefficient:
+    statement: >-
+      Agreement between each pair of criteria is reported as Cohen's kappa and a
+      disagreement percentage, and no cross-classification of two criteria is printed.
+    verified: true
+    quotes:
+    - exact: >-
+        level of agreement between a pair of criteria was expressed using
+        Cohen's kappa coefficient
+      section: "2.4"
+    - exact: The disagreement rate (d) between criteria was expressed
+      section: "2.4"
+      note: >-
+        The sentence continues "as a percentage" in the printed article; the text
+        render inserts the facing column between the two fragments.

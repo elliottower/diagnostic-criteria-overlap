@@ -1,0 +1,23 @@
+claim: ruperto2012
+title: Quotations from ruperto2012 used in criterion_agreement_v1.tex
+source:
+  citation: ruperto2012
+  local: reference/ruperto2012.txt
+  sha256: 482077c69df500c7b667211506077ca2d8ed880f6022d36812cadd3f87944318
+  tier: fulltext
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: false
+  note: J Rheumatol editorial, jrheum.org/content/39/8/1503.full.pdf, retrieved 2026-08-26
+claims:
+  choice-of-standard-drives-agreement:
+    statement: The same criteria move from fair to near-perfect agreement on the choice of reference standard.
+    verified: true
+    quotes:
+    - exact: was fair to moderate (kappa 0.34–0.49), while the agreement between the criteria and the consensus
+        panel evaluation for GPA was almost perfect
+  clinician-standard-is-self-undermining:
+    statement: Validating criteria against treating-physician diagnosis undercuts the reason for having criteria.
+    verified: true
+    quotes:
+    - exact: If research could be based on diagnosis of the treating physician when no pathognomonic criteria are
+        available, there would be no need to work on classification criteria

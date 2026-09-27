@@ -1,0 +1,1818 @@
+{
+  "summary": {
+    "comparisons": 65,
+    "mlscorecheck_run": 64,
+    "not_run_percent_marginals": [
+      "daghi2026"
+    ],
+    "mlscorecheck_count_never_below_exact": true,
+    "mlscorecheck_accepts_every_enumeration_table": true,
+    "enumeration_tables_always_among_one_marginal_tables": true,
+    "one_marginal_unique_either_side": 14,
+    "enumeration_unique": 63
+  },
+  "rows": [
+    {
+      "comparison": "guerra2026",
+      "N": 20306,
+      "n_A": 866,
+      "n_B": 1603,
+      "kappa": "0.22",
+      "agreement": null,
+      "enumeration_tables": 11,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 89099,
+          "mlscorecheck_reported_pairs": 956675,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 210573,
+          "mlscorecheck_reported_pairs": 1361829,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 89099
+    },
+    {
+      "comparison": "westbury2023",
+      "N": 9170,
+      "n_A": 105,
+      "n_B": 152,
+      "kappa": "0.17",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 3085,
+          "mlscorecheck_reported_pairs": 81439,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 5895,
+          "mlscorecheck_reported_pairs": 115502,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3085
+    },
+    {
+      "comparison": "daghi2026",
+      "N": 370,
+      "n_A": null,
+      "n_B": null,
+      "kappa": "0.48",
+      "agreement": "73",
+      "enumeration_tables": 0,
+      "mlscorecheck": "not run: the marginals are printed as percentages, and it needs exact counts"
+    },
+    {
+      "comparison": "meagher2014_strict",
+      "N": 768,
+      "n_A": 510,
+      "n_B": 158,
+      "kappa": "0.22",
+      "agreement": "53",
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 19,
+          "mlscorecheck_reported_pairs": 42,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 25,
+          "mlscorecheck_reported_pairs": 42,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 19
+    },
+    {
+      "comparison": "meagher2014_reading",
+      "N": 768,
+      "n_A": 158,
+      "n_B": 466,
+      "kappa": "0.29",
+      "agreement": "60",
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 17,
+          "mlscorecheck_reported_pairs": 43,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 48,
+          "mlscorecheck_reported_pairs": 100,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 17
+    },
+    {
+      "comparison": "meagher2014_permissive",
+      "N": 768,
+      "n_A": 510,
+      "n_B": 466,
+      "kappa": "0.82",
+      "agreement": "91",
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 16,
+          "mlscorecheck_reported_pairs": 150,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 151,
+          "mlscorecheck_reported_pairs": 400,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 16
+    },
+    {
+      "comparison": "inoue2012_fpg",
+      "N": 7328,
+      "n_A": 153,
+      "n_B": 174,
+      "kappa": "0.759",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 24,
+          "mlscorecheck_reported_pairs": 1118,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 32,
+          "mlscorecheck_reported_pairs": 1259,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 24
+    },
+    {
+      "comparison": "inoue2012_hba1c",
+      "N": 7328,
+      "n_A": 153,
+      "n_B": 175,
+      "kappa": "0.782",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 22,
+          "mlscorecheck_reported_pairs": 1005,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 29,
+          "mlscorecheck_reported_pairs": 1137,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 22
+    },
+    {
+      "comparison": "inoue2012_ada",
+      "N": 7328,
+      "n_A": 174,
+      "n_B": 175,
+      "kappa": "0.668",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 51,
+          "mlscorecheck_reported_pairs": 1808,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 50,
+          "mlscorecheck_reported_pairs": 1818,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 50
+    },
+    {
+      "comparison": "valencia2024",
+      "N": 67,
+      "n_A": 29,
+      "n_B": 11,
+      "kappa": "0.409",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 1,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 2,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / NICE 2015",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 76,
+      "kappa": "0.580",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 8,
+          "mlscorecheck_reported_pairs": 31,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 31,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 7
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / DIPSI 2009",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 64,
+      "kappa": "0.456",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 9,
+          "mlscorecheck_reported_pairs": 41,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 9,
+          "mlscorecheck_reported_pairs": 38,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 9
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / WHO 1999",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 64,
+      "kappa": "0.456",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 9,
+          "mlscorecheck_reported_pairs": 41,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 9,
+          "mlscorecheck_reported_pairs": 38,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 9
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / CDA 2013",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 62,
+      "kappa": "0.811",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 14,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 12,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / ADIPS 1998",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 69,
+      "kappa": "0.609",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 28,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 5,
+          "mlscorecheck_reported_pairs": 27,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 5
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / EASD 1996",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 34,
+      "kappa": "0.509",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 11,
+          "mlscorecheck_reported_pairs": 35,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 23,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 4
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / NZSSD 2004",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 46,
+      "kappa": "0.648",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 26,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 20,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 4
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / CDA 2003",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 26,
+      "kappa": "0.406",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 12,
+          "mlscorecheck_reported_pairs": 42,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 25,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 4
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / ADA 2004",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 28,
+      "kappa": "0.432",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 10,
+          "mlscorecheck_reported_pairs": 41,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 25,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 4
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / JSOG 1984",
+      "N": 353,
+      "n_A": 84,
+      "n_B": 28,
+      "kappa": "0.432",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 10,
+          "mlscorecheck_reported_pairs": 41,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 25,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 4
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / DIPSI 2009",
+      "N": 353,
+      "n_A": 76,
+      "n_B": 64,
+      "kappa": "0.893",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 8,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 8,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / WHO 1999",
+      "N": 353,
+      "n_A": 76,
+      "n_B": 64,
+      "kappa": "0.893",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 8,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 8,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / CDA 2013",
+      "N": 353,
+      "n_A": 76,
+      "n_B": 62,
+      "kappa": "0.605",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 29,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 5,
+          "mlscorecheck_reported_pairs": 26,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 5
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / ADIPS 1998",
+      "N": 353,
+      "n_A": 76,
+      "n_B": 69,
+      "kappa": "0.905",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 9,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 9,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / EASD 1996",
+      "N": 353,
+      "n_A": 76,
+      "n_B": 34,
+      "kappa": "0.560",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 15,
+          "mlscorecheck_reported_pairs": 35,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 19,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / NZSSD 2004",
+      "N": 353,
+      "n_A": 76,
+      "n_B": 46,
+      "kappa": "0.667",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 24,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 18,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / CDA 2003",
+      "N": 353,
+      "n_A": 76,
+      "n_B": 26,
+      "kappa": "0.427",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 11,
+          "mlscorecheck_reported_pairs": 38,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 26,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 4
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / ADA 2004",
+      "N": 353,
+      "n_A": 76,
+      "n_B": 28,
+      "kappa": "0.456",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 10,
+          "mlscorecheck_reported_pairs": 39,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 22,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / JSOG 1984",
+      "N": 353,
+      "n_A": 76,
+      "n_B": 28,
+      "kappa": "0.478",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 10,
+          "mlscorecheck_reported_pairs": 36,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 22,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / WHO 1999",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 64,
+      "kappa": "1.000",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 2,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 2,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / CDA 2013",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 62,
+      "kappa": "0.459",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 33,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 8,
+          "mlscorecheck_reported_pairs": 36,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 7
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / ADIPS 1998",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 69,
+      "kappa": "0.787",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 14,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 16,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / EASD 1996",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 34,
+      "kappa": "0.556",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 6,
+          "mlscorecheck_reported_pairs": 30,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 20,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / NZSSD 2004",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 46,
+      "kappa": "0.507",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 6,
+          "mlscorecheck_reported_pairs": 30,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 5,
+          "mlscorecheck_reported_pairs": 29,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 5
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / CDA 2003",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 26,
+      "kappa": "0.504",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 8,
+          "mlscorecheck_reported_pairs": 32,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 21,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / ADA 2004",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 28,
+      "kappa": "0.511",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 31,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 20,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / JSOG 1984",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 28,
+      "kappa": "0.536",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 31,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 18,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / CDA 2013",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 62,
+      "kappa": "0.459",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 33,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 8,
+          "mlscorecheck_reported_pairs": 36,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 7
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / ADIPS 1998",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 69,
+      "kappa": "0.787",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 14,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 16,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / EASD 1996",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 34,
+      "kappa": "0.556",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 6,
+          "mlscorecheck_reported_pairs": 30,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 20,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / NZSSD 2004",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 46,
+      "kappa": "0.507",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 6,
+          "mlscorecheck_reported_pairs": 30,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 5,
+          "mlscorecheck_reported_pairs": 29,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 5
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / CDA 2003",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 26,
+      "kappa": "0.504",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 8,
+          "mlscorecheck_reported_pairs": 32,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 21,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / ADA 2004",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 28,
+      "kappa": "0.511",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 31,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 20,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / JSOG 1984",
+      "N": 353,
+      "n_A": 64,
+      "n_B": 28,
+      "kappa": "0.536",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 31,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 18,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / ADIPS 1998",
+      "N": 353,
+      "n_A": 62,
+      "n_B": 69,
+      "kappa": "0.691",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 13,
+          "mlscorecheck_reported_pairs": 14,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 22,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 4
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / EASD 1996",
+      "N": 353,
+      "n_A": 62,
+      "n_B": 34,
+      "kappa": "0.667",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 22,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 16,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / NZSSD 2004",
+      "N": 353,
+      "n_A": 62,
+      "n_B": 46,
+      "kappa": "0.826",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 5,
+          "mlscorecheck_reported_pairs": 14,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 10,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / CDA 2003",
+      "N": 353,
+      "n_A": 62,
+      "n_B": 26,
+      "kappa": "0.544",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 6,
+          "mlscorecheck_reported_pairs": 30,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 18,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / ADA 2004",
+      "N": 353,
+      "n_A": 62,
+      "n_B": 28,
+      "kappa": "0.576",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 27,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 17,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / JSOG 1984",
+      "N": 353,
+      "n_A": 62,
+      "n_B": 28,
+      "kappa": "0.576",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 27,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 17,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / EASD 1996",
+      "N": 353,
+      "n_A": 69,
+      "n_B": 34,
+      "kappa": "0.610",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 27,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 17,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / NZSSD 2004",
+      "N": 353,
+      "n_A": 69,
+      "n_B": 46,
+      "kappa": "0.763",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 17,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 13,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / CDA 2003",
+      "N": 353,
+      "n_A": 69,
+      "n_B": 26,
+      "kappa": "0.470",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 10,
+          "mlscorecheck_reported_pairs": 37,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 22,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 3
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / ADA 2004",
+      "N": 353,
+      "n_A": 69,
+      "n_B": 28,
+      "kappa": "0.500",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 10,
+          "mlscorecheck_reported_pairs": 34,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 21,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 2
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / JSOG 1984",
+      "N": 353,
+      "n_A": 69,
+      "n_B": 28,
+      "kappa": "0.524",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 7,
+          "mlscorecheck_reported_pairs": 32,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 19,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 EASD 1996 / NZSSD 2004",
+      "N": 353,
+      "n_A": 34,
+      "n_B": 46,
+      "kappa": "0.831",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 8,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 10,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 EASD 1996 / CDA 2003",
+      "N": 353,
+      "n_A": 34,
+      "n_B": 26,
+      "kappa": "0.709",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 14,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 3,
+          "mlscorecheck_reported_pairs": 13,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 EASD 1996 / ADA 2004",
+      "N": 353,
+      "n_A": 34,
+      "n_B": 28,
+      "kappa": "0.717",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 13,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 11,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 EASD 1996 / JSOG 1984",
+      "N": 353,
+      "n_A": 34,
+      "n_B": 28,
+      "kappa": "0.717",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 2,
+          "mlscorecheck_reported_pairs": 13,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 11,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 NZSSD 2004 / CDA 2003",
+      "N": 353,
+      "n_A": 46,
+      "n_B": 26,
+      "kappa": "0.632",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 6,
+          "mlscorecheck_reported_pairs": 18,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 14,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 NZSSD 2004 / ADA 2004",
+      "N": 353,
+      "n_A": 46,
+      "n_B": 28,
+      "kappa": "0.670",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 19,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 13,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 NZSSD 2004 / JSOG 1984",
+      "N": 353,
+      "n_A": 46,
+      "n_B": 28,
+      "kappa": "0.670",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 4,
+          "mlscorecheck_reported_pairs": 19,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 13,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 CDA 2003 / ADA 2004",
+      "N": 353,
+      "n_A": 26,
+      "n_B": 28,
+      "kappa": "0.960",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 4,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 4,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 CDA 2003 / JSOG 1984",
+      "N": 353,
+      "n_A": 26,
+      "n_B": 28,
+      "kappa": "0.920",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 4,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 5,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    },
+    {
+      "comparison": "goyal2025 ADA 2004 / JSOG 1984",
+      "N": 353,
+      "n_A": 28,
+      "n_B": 28,
+      "kappa": "0.961",
+      "agreement": null,
+      "enumeration_tables": 1,
+      "mlscorecheck": {
+        "A known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 4,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        },
+        "B known": {
+          "one_marginal_tables_exact": 1,
+          "mlscorecheck_reported_pairs": 4,
+          "mlscorecheck_inconsistency": false,
+          "mlscorecheck_count_at_least_exact": true,
+          "enumeration_tables_among_exact": true,
+          "mlscorecheck_accepts_every_enumeration_table": true
+        }
+      },
+      "one_marginal_fewest_tables": 1
+    }
+  ]
+}

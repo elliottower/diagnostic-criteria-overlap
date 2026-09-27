@@ -1,0 +1,16 @@
+{
+  "published": {
+    "N": 768,
+    "n_A": 158,
+    "n_B": 466,
+    "kappa": "0.29",
+    "agreement_percent": "60"
+  },
+  "recovered": {
+    "n11": 158,
+    "n10": 0,
+    "n01": 308,
+    "n00": 302
+  },
+  "tables": 1
+}

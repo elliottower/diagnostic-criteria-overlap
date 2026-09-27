@@ -1,0 +1,567 @@
+{
+  "source": "goyal2025, Table 3 and Figure 2",
+  "N": 353,
+  "pairs": 55,
+  "inputs_to_recovery": "N, both positive counts, kappa; the disagreement percentage is not an input",
+  "tolerance": "strictly less than 0.1 percentage points, one unit in the last printed place",
+  "within_one_printed_unit": 55,
+  "largest_absolute_difference": 0.09943342776203966,
+  "convention_counts": {
+    "either": 33,
+    "truncation only": 15,
+    "rounding only": 7,
+    "neither": 0
+  },
+  "rows": [
+    {
+      "a": "IADPSG 2010",
+      "b": "NICE 2015",
+      "recovered_discordant": 52,
+      "recovered_percent_exact": 14.73087818696884,
+      "printed_percent": "14.7",
+      "absolute_difference": 0.030878186968838525,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "DIPSI 2009",
+      "recovered_discordant": 64,
+      "recovered_percent_exact": 18.13031161473088,
+      "printed_percent": "18.1",
+      "absolute_difference": 0.03031161473087819,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "WHO 1999",
+      "recovered_discordant": 64,
+      "recovered_percent_exact": 18.13031161473088,
+      "printed_percent": "18.1",
+      "absolute_difference": 0.03031161473087819,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "CDA 2013",
+      "recovered_discordant": 22,
+      "recovered_percent_exact": 6.232294617563739,
+      "printed_percent": "6.2",
+      "absolute_difference": 0.03229461756373938,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "ADIPS 1998",
+      "recovered_discordant": 47,
+      "recovered_percent_exact": 13.314447592067989,
+      "printed_percent": "13.3",
+      "absolute_difference": 0.014447592067988669,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "EASD 1996",
+      "recovered_discordant": 50,
+      "recovered_percent_exact": 14.164305949008499,
+      "printed_percent": "14.1",
+      "absolute_difference": 0.06430594900849858,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "NZSSD 2004",
+      "recovered_discordant": 38,
+      "recovered_percent_exact": 10.76487252124646,
+      "printed_percent": "10.7",
+      "absolute_difference": 0.06487252124645893,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "CDA 2003",
+      "recovered_discordant": 58,
+      "recovered_percent_exact": 16.430594900849858,
+      "printed_percent": "16.4",
+      "absolute_difference": 0.03059490084985836,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "ADA 2004",
+      "recovered_discordant": 56,
+      "recovered_percent_exact": 15.864022662889518,
+      "printed_percent": "15.9",
+      "absolute_difference": 0.03597733711048159,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "rounding only"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "JSOG 1984",
+      "recovered_discordant": 56,
+      "recovered_percent_exact": 15.864022662889518,
+      "printed_percent": "15.8",
+      "absolute_difference": 0.06402266288951841,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "DIPSI 2009",
+      "recovered_discordant": 12,
+      "recovered_percent_exact": 3.3994334277620397,
+      "printed_percent": "3.3",
+      "absolute_difference": 0.09943342776203966,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "WHO 1999",
+      "recovered_discordant": 12,
+      "recovered_percent_exact": 3.3994334277620397,
+      "printed_percent": "3.3",
+      "absolute_difference": 0.09943342776203966,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "CDA 2013",
+      "recovered_discordant": 44,
+      "recovered_percent_exact": 12.464589235127479,
+      "printed_percent": "12.4",
+      "absolute_difference": 0.06458923512747876,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "ADIPS 1998",
+      "recovered_discordant": 11,
+      "recovered_percent_exact": 3.1161473087818696,
+      "printed_percent": "3.1",
+      "absolute_difference": 0.01614730878186969,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "EASD 1996",
+      "recovered_discordant": 42,
+      "recovered_percent_exact": 11.898016997167138,
+      "printed_percent": "11.8",
+      "absolute_difference": 0.09801699716713881,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "NZSSD 2004",
+      "recovered_discordant": 34,
+      "recovered_percent_exact": 9.63172804532578,
+      "printed_percent": "9.6",
+      "absolute_difference": 0.03172804532577904,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "CDA 2003",
+      "recovered_discordant": 52,
+      "recovered_percent_exact": 14.73087818696884,
+      "printed_percent": "14.7",
+      "absolute_difference": 0.030878186968838525,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "ADA 2004",
+      "recovered_discordant": 50,
+      "recovered_percent_exact": 14.164305949008499,
+      "printed_percent": "14.2",
+      "absolute_difference": 0.035694050991501414,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "rounding only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "JSOG 1984",
+      "recovered_discordant": 48,
+      "recovered_percent_exact": 13.597733711048159,
+      "printed_percent": "13.5",
+      "absolute_difference": 0.09773371104815864,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "WHO 1999",
+      "recovered_discordant": 0,
+      "recovered_percent_exact": 0.0,
+      "printed_percent": "0",
+      "absolute_difference": 0.0,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "CDA 2013",
+      "recovered_discordant": 56,
+      "recovered_percent_exact": 15.864022662889518,
+      "printed_percent": "15.8",
+      "absolute_difference": 0.06402266288951841,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "ADIPS 1998",
+      "recovered_discordant": 23,
+      "recovered_percent_exact": 6.515580736543909,
+      "printed_percent": "6.5",
+      "absolute_difference": 0.015580736543909348,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "EASD 1996",
+      "recovered_discordant": 38,
+      "recovered_percent_exact": 10.76487252124646,
+      "printed_percent": "10.7",
+      "absolute_difference": 0.06487252124645893,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "NZSSD 2004",
+      "recovered_discordant": 46,
+      "recovered_percent_exact": 13.031161473087819,
+      "printed_percent": "13.0",
+      "absolute_difference": 0.031161473087818695,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "CDA 2003",
+      "recovered_discordant": 40,
+      "recovered_percent_exact": 11.331444759206798,
+      "printed_percent": "11.3",
+      "absolute_difference": 0.031444759206798865,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "ADA 2004",
+      "recovered_discordant": 40,
+      "recovered_percent_exact": 11.331444759206798,
+      "printed_percent": "11.3",
+      "absolute_difference": 0.031444759206798865,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "JSOG 1984",
+      "recovered_discordant": 38,
+      "recovered_percent_exact": 10.76487252124646,
+      "printed_percent": "10.7",
+      "absolute_difference": 0.06487252124645893,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "CDA 2013",
+      "recovered_discordant": 56,
+      "recovered_percent_exact": 15.864022662889518,
+      "printed_percent": "15.8",
+      "absolute_difference": 0.06402266288951841,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "ADIPS 1998",
+      "recovered_discordant": 23,
+      "recovered_percent_exact": 6.515580736543909,
+      "printed_percent": "6.5",
+      "absolute_difference": 0.015580736543909348,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "EASD 1996",
+      "recovered_discordant": 38,
+      "recovered_percent_exact": 10.76487252124646,
+      "printed_percent": "10.7",
+      "absolute_difference": 0.06487252124645893,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "NZSSD 2004",
+      "recovered_discordant": 46,
+      "recovered_percent_exact": 13.031161473087819,
+      "printed_percent": "13.0",
+      "absolute_difference": 0.031161473087818695,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "CDA 2003",
+      "recovered_discordant": 40,
+      "recovered_percent_exact": 11.331444759206798,
+      "printed_percent": "11.3",
+      "absolute_difference": 0.031444759206798865,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "ADA 2004",
+      "recovered_discordant": 40,
+      "recovered_percent_exact": 11.331444759206798,
+      "printed_percent": "11.3",
+      "absolute_difference": 0.031444759206798865,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "JSOG 1984",
+      "recovered_discordant": 38,
+      "recovered_percent_exact": 10.76487252124646,
+      "printed_percent": "10.7",
+      "absolute_difference": 0.06487252124645893,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "ADIPS 1998",
+      "recovered_discordant": 33,
+      "recovered_percent_exact": 9.34844192634561,
+      "printed_percent": "9.3",
+      "absolute_difference": 0.048441926345609065,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "EASD 1996",
+      "recovered_discordant": 28,
+      "recovered_percent_exact": 7.932011331444759,
+      "printed_percent": "7.9",
+      "absolute_difference": 0.032011331444759206,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "NZSSD 2004",
+      "recovered_discordant": 16,
+      "recovered_percent_exact": 4.53257790368272,
+      "printed_percent": "4.5",
+      "absolute_difference": 0.032577903682719546,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "CDA 2003",
+      "recovered_discordant": 36,
+      "recovered_percent_exact": 10.19830028328612,
+      "printed_percent": "10.2",
+      "absolute_difference": 0.0016997167138810198,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "rounding only"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "ADA 2004",
+      "recovered_discordant": 34,
+      "recovered_percent_exact": 9.63172804532578,
+      "printed_percent": "9.6",
+      "absolute_difference": 0.03172804532577904,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "JSOG 1984",
+      "recovered_discordant": 34,
+      "recovered_percent_exact": 9.63172804532578,
+      "printed_percent": "9.6",
+      "absolute_difference": 0.03172804532577904,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "EASD 1996",
+      "recovered_discordant": 35,
+      "recovered_percent_exact": 9.91501416430595,
+      "printed_percent": "9.9",
+      "absolute_difference": 0.01501416430594901,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "NZSSD 2004",
+      "recovered_discordant": 23,
+      "recovered_percent_exact": 6.515580736543909,
+      "printed_percent": "6.5",
+      "absolute_difference": 0.015580736543909348,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "CDA 2003",
+      "recovered_discordant": 45,
+      "recovered_percent_exact": 12.747875354107649,
+      "printed_percent": "12.7",
+      "absolute_difference": 0.047875354107648725,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "ADA 2004",
+      "recovered_discordant": 43,
+      "recovered_percent_exact": 12.181303116147308,
+      "printed_percent": "12.2",
+      "absolute_difference": 0.018696883852691217,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "rounding only"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "JSOG 1984",
+      "recovered_discordant": 41,
+      "recovered_percent_exact": 11.614730878186968,
+      "printed_percent": "11.6",
+      "absolute_difference": 0.014730878186968839,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "EASD 1996",
+      "b": "NZSSD 2004",
+      "recovered_discordant": 12,
+      "recovered_percent_exact": 3.3994334277620397,
+      "printed_percent": "3.3",
+      "absolute_difference": 0.09943342776203966,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "truncation only"
+    },
+    {
+      "a": "EASD 1996",
+      "b": "CDA 2003",
+      "recovered_discordant": 16,
+      "recovered_percent_exact": 4.53257790368272,
+      "printed_percent": "4.5",
+      "absolute_difference": 0.032577903682719546,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "EASD 1996",
+      "b": "ADA 2004",
+      "recovered_discordant": 16,
+      "recovered_percent_exact": 4.53257790368272,
+      "printed_percent": "4.5",
+      "absolute_difference": 0.032577903682719546,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "EASD 1996",
+      "b": "JSOG 1984",
+      "recovered_discordant": 16,
+      "recovered_percent_exact": 4.53257790368272,
+      "printed_percent": "4.5",
+      "absolute_difference": 0.032577903682719546,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "NZSSD 2004",
+      "b": "CDA 2003",
+      "recovered_discordant": 24,
+      "recovered_percent_exact": 6.798866855524079,
+      "printed_percent": "6.8",
+      "absolute_difference": 0.0011331444759206798,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "rounding only"
+    },
+    {
+      "a": "NZSSD 2004",
+      "b": "ADA 2004",
+      "recovered_discordant": 22,
+      "recovered_percent_exact": 6.232294617563739,
+      "printed_percent": "6.2",
+      "absolute_difference": 0.03229461756373938,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "NZSSD 2004",
+      "b": "JSOG 1984",
+      "recovered_discordant": 22,
+      "recovered_percent_exact": 6.232294617563739,
+      "printed_percent": "6.2",
+      "absolute_difference": 0.03229461756373938,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "CDA 2003",
+      "b": "ADA 2004",
+      "recovered_discordant": 2,
+      "recovered_percent_exact": 0.56657223796034,
+      "printed_percent": "0.6",
+      "absolute_difference": 0.03342776203966006,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "rounding only"
+    },
+    {
+      "a": "CDA 2003",
+      "b": "JSOG 1984",
+      "recovered_discordant": 4,
+      "recovered_percent_exact": 1.13314447592068,
+      "printed_percent": "1.1",
+      "absolute_difference": 0.033144475920679886,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "either"
+    },
+    {
+      "a": "ADA 2004",
+      "b": "JSOG 1984",
+      "recovered_discordant": 2,
+      "recovered_percent_exact": 0.56657223796034,
+      "printed_percent": "0.6",
+      "absolute_difference": 0.03342776203966006,
+      "within_one_printed_unit": true,
+      "convention_consistent_with_printed": "rounding only"
+    }
+  ]
+}

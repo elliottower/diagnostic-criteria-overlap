@@ -1,0 +1,50 @@
+claim: johnson2026acr
+title: Quotations from johnson2026acr used in criterion_agreement_v9d.tex
+source:
+  citation: johnson2026acr
+  local: reference/johnson2026acr.txt
+  sha256: e7ea4fba95eccc5a5c5d6cb97de6f736ffa76d30863fa23b83028022461f1e75
+  tier: fulltext
+  retrieved_from: publisher PDF, rendered with pdftotext -layout
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: false
+claims:
+  criteria-are-research-instruments:
+    statement: >-
+      Classification criteria are instruments for research populations rather
+      than for individual diagnosis.
+    verified: true
+    quotes:
+    - exact: key tools for observational studies and clinical trials
+      section: Introduction
+  comparison-with-previous-criteria-is-recommended:
+    statement: >-
+      The methods guidance written for criteria development recommends comparing
+      new criteria against the criteria they replace.
+    verified: true
+    quotes:
+    - exact: Comparisons with previous criteria are recommended
+      section: Validation
+    - exact: >-
+        Independent validation cohort to assess criteria performance and compare
+        to older criteria/alternatives
+      section: Methods table
+  recommended-design-is-triangular:
+    statement: >-
+      The recommended validation scores each criteria set against an
+      independently adjudicated standard rather than against the other criteria
+      set, so it does not produce the old-by-new patient table.
+    verified: true
+    quotes:
+    - exact: >-
+        at least 2 of 3 independent investigators adjudicate and agree on cases
+        and controls
+      section: Methods table
+      suffix: >-
+        . Investigators who contribute data for validation should be
+        different
+      note: >-
+        The methods table states this recommendation in three rows and the text
+        render repeats it verbatim three times. The suffix pins the third, which
+        is the only occurrence with distinct following text; the three are the
+        same sentence.

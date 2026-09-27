@@ -1,0 +1,32 @@
+{
+  "title": "How Much Do Rival Diagnostic Criteria Overlap? Recovering the 2x2 Table Behind a Published Kappa",
+  "upload_type": "software",
+  "description": "Apparatus for a methods paper on comparisons between diagnostic criteria. Where a study prints a sample size, both positive marginals and Cohen's kappa, the joint 2x2 table is identifiable up to the rounding of those figures. This repository holds the enumeration results for sixteen published comparisons across eight conditions, the scripts that produce every table and figure in the manuscript, quotation records for each cited source, and an artifact ledger recording the SHA-256 and retrieval tier of each source.",
+  "creators": [
+    {
+      "name": "Tower, Elliot",
+      "orcid": "0000-0001-7004-8884"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "diagnostic criteria",
+    "Cohen's kappa",
+    "observer variation",
+    "reproducibility",
+    "diagnostic accuracy",
+    "classification"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/elliottower/diagnostic-criteria-overlap",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22985131",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    }
+  ]
+}

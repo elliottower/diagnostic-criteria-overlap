@@ -1,0 +1,26 @@
+{
+  "what_this_measures": "Within one reference stratum of a two-by-four table, whether the stratum size, both index-test marginals (i.e. both sensitivities) and a published McNemar chi-square identify the stratum's four cells.",
+  "trials": 4000,
+  "marginals_only": {
+    "n": 4000,
+    "mean": 27.542,
+    "max": 78,
+    "fraction_unique": 0.002
+  },
+  "marginals_plus_mcnemar_chisq": {
+    "n": 4000,
+    "mean": 1.865,
+    "max": 75,
+    "fraction_unique": 0.9722
+  },
+  "singular_case_equal_marginals": {
+    "description": "When the two sensitivities are equal the discordant cells are equal, the chi-square is 0 for every discordant total, and the statistic adds nothing.",
+    "cases": 113,
+    "candidates": {
+      "n": 113,
+      "mean": 31.628,
+      "max": 75,
+      "fraction_unique": 0.0177
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "WITHDRAWN 2026-09-04",
+  "reason": "Spearman's correction for attenuation is derived for the product-moment correlation under classical test theory; Cohen's kappa is chance-corrected and marginal-dependent and meets neither condition. The two inputs also came from different populations with different prevalence. The corrected values are not reported in any manuscript version from v4 onward.",
+  "notebook": "notes/NOTEBOOK.md, entry 2026-09-04",
+  "superseded_by": "experiments/table_recovery/PREREG.md",
+  "withdrawn_content": {
+    "description": "Criterion-level kappa corrected for the rater-level floor",
+    "formula": "kappa_corrected = kappa / sqrt(reliability_x * reliability_y)",
+    "formula_source": "spearman1904",
+    "caveat": "Derived for product-moment correlations between continuous measures. Applied to kappa it is an approximation sensitive to prevalence and to the marginal distributions.",
+    "rows": [
+      {
+        "condition": "Multiple sclerosis",
+        "comparison": "neurologist label against trial definition",
+        "kappa": 0.22,
+        "kappa_source": "guerra2026",
+        "reliability_x": 0.545,
+        "reliability_x_source": "zipoli2003 (0.52-0.57, four neurologists, 44 cases)",
+        "reliability_y": 1.0,
+        "reliability_y_source": "algorithmic on registry fields; no rater",
+        "floor_borrowed_across_studies": true,
+        "kappa_corrected": 0.298,
+        "computable": true
+      },
+      {
+        "condition": "Multiple sclerosis",
+        "comparison": "McDonald 2017 against McDonald 2024",
+        "kappa": 0.65,
+        "kappa_source": "mahmoudi2026",
+        "reliability_x": 0.77,
+        "reliability_x_source": "mahmoudi2026 (0.70-0.84, three readers)",
+        "reliability_y": 0.77,
+        "reliability_y_source": "mahmoudi2026, same readers, same study",
+        "floor_borrowed_across_studies": false,
+        "kappa_corrected": 0.844,
+        "computable": true
+      },
+      {
+        "condition": "Stroke",
+        "comparison": "TOAST against CCS",
+        "kappa": 0.59,
+        "kappa_source": "mcardle2014",
+        "reliability_x": null,
+        "reliability_x_source": "none published for TOAST",
+        "reliability_y": null,
+        "reliability_y_source": "none published for CCS",
+        "floor_borrowed_across_studies": false,
+        "note": "zhang2019 publishes 0.857 for CISS inter-rater. CISS is in neither side of this comparison, so substituting it is not licensed.",
+        "kappa_corrected": null,
+        "computable": false
+      }
+    ],
+    "n_pairs_in_distribution": 12,
+    "n_pairs_with_any_floor": 3,
+    "n_pairs_correctable": 2
+  }
+}

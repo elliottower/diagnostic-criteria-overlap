@@ -1,0 +1,24 @@
+claim: whiting2006
+title: Quotations from whiting2006 used in criterion_agreement_v10.tex
+source:
+  citation: whiting2006
+  local: reference/whiting2006.txt
+  sha256: 9c3d2d122ff0b614c948d19a6174dde24933b5ef7b2eb58fe96908625bed511e
+  tier: fulltext
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: false
+  note: >-
+    BMC Medical Research Methodology 6:9, PMID 16519814. Artifact copied from the
+    neurology-nosology repository, where it was pinned for the Alzheimer's paper;
+    the two papers share the citations library. The quoted item is the QUADAS
+    reference-standard question as the paper reproduces the tool's item list.
+claims:
+  reference-standard-status-is-appraised:
+    statement: >-
+      The quality assessment tool for diagnostic accuracy studies asks reviewers to
+      judge whether the reference standard classifies the target condition correctly,
+      so the designation is appraised rather than asserted.
+    verified: true
+    quotes:
+    - exact: Is the reference standard likely to correctly classify
+        the target condition?

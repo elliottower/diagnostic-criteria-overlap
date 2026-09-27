@@ -1,0 +1,74 @@
+# Pinned source artifacts live in the shared citations library:
+#   $CITATIONS_HOME/artifacts
+# reference/ carries only FETCH_LOG.json, which pins each artifact by sha256.
+reference/*.txt
+reference/*.xml
+reference/*.pdf
+reference/*.md
+!reference/FETCH_LOG.json
+# publisher full texts fetched for register comparison; not ours to redistribute
+reference/jecp_exemplars/
+
+
+# Internal review rounds are never tracked; this repo may go public.
+reviews/
+
+# Venue strategy and working plans: not science, and not for a public tree.
+planning/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+paper/.audit-cache/
+*.bak
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# Working documents in the corpus directory. BENCHMARK_INVENTORY.md is the
+# inclusion rule applied per source and is tracked; these two are notes.
+experiments/corpus/READING_NOTES.md
+experiments/corpus/SEARCH_QUERIES.md
+
+# beamer build artifacts
+*.nav
+*.snm
+*.vrb
+*.toc
+
+# Local reading and publisher guideline texts; not ours to redistribute.
+reading/
+reference/jecp_guidelines/
+
+# Quotations pinned for submission planning, which lives in planning/.
+# Venue-research quotation records stay out of the public tree; they pin journal
+# guidelines rather than the sources the paper cites.
+claims/jecp_*.yaml
+claims/jep7*.yaml
+claims/wiley_*.yaml
+
+# Option sheets drawn to choose a figure or table design; no version inputs them.
+figures/options/
+figures/fig_recovery_boxoptions.*
+figures/fig_recovery_mono.*
+figures/fig_recovery_wordings.*
+figures/fig_two_cases_venn.*
+paper/*_options.*
+paper/*_preview.*
+paper/*_TABLETEST.*
+scripts/figure_options.py
+scripts/make_*_options.py
+
+# Built from scripts/ocr/VisionOCR.swift.
+scripts/ocr/visionocr
+
+# Per-venue submission folders and the Zenodo deposit are assembled locally and
+# never tracked: they carry cover letters, built PDFs and archives.
+submission/

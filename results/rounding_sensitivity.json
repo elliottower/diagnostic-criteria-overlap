@@ -1,0 +1,45 @@
+{
+  "rules": {
+    "closed": "[lo, hi]",
+    "half_up": "[lo, hi)",
+    "half_down": "(lo, hi]"
+  },
+  "comparisons": 9,
+  "candidate_counts": {
+    "closed": {
+      "guerra2026": 11,
+      "westbury2023": 1,
+      "daghi2026": 0,
+      "meagher2014_strict": 1,
+      "meagher2014_reading": 1,
+      "meagher2014_permissive": 1,
+      "inoue2012_fpg": 1,
+      "inoue2012_hba1c": 1,
+      "inoue2012_ada": 1
+    },
+    "half_up": {
+      "guerra2026": 11,
+      "westbury2023": 1,
+      "daghi2026": 0,
+      "meagher2014_strict": 1,
+      "meagher2014_reading": 1,
+      "meagher2014_permissive": 1,
+      "inoue2012_fpg": 1,
+      "inoue2012_hba1c": 1,
+      "inoue2012_ada": 1
+    },
+    "half_down": {
+      "guerra2026": 11,
+      "westbury2023": 1,
+      "daghi2026": 0,
+      "meagher2014_strict": 1,
+      "meagher2014_reading": 1,
+      "meagher2014_permissive": 1,
+      "inoue2012_fpg": 1,
+      "inoue2012_hba1c": 1,
+      "inoue2012_ada": 1
+    }
+  },
+  "comparisons_whose_set_differs": [],
+  "invariant": true
+}

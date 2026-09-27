@@ -1,0 +1,89 @@
+{
+  "panels": [
+    {
+      "figure": "fig_recovery.tex",
+      "panel": "c",
+      "source": "meagher2014_reading",
+      "drawn": {
+        "(0, 0)": 158,
+        "(0, 1)": 0,
+        "(1, 0)": 308,
+        "(1, 1)": 302
+      },
+      "top_row_sum": 158,
+      "strict_positive_published": 158,
+      "left_column_sum": 466,
+      "relaxed_positive_published": 466,
+      "total": 768,
+      "n_published": 768,
+      "row_marginal_ok": true,
+      "column_marginal_ok": true,
+      "total_ok": true,
+      "ok": true
+    },
+    {
+      "figure": "fig_two_cases.tex",
+      "panel": "a",
+      "source": "goyal2025 CDA 2013 / JSOG 1984",
+      "drawn": {
+        "(0, 0)": 28,
+        "(0, 1)": 34,
+        "(1, 0)": 0,
+        "(1, 1)": 291
+      },
+      "top_row_sum": 62,
+      "CDA_positive_published": 62,
+      "left_column_sum": 28,
+      "JSOG_positive_published": 28,
+      "total": 353,
+      "n_published": 353,
+      "row_marginal_ok": true,
+      "column_marginal_ok": true,
+      "total_ok": true,
+      "ok": true
+    },
+    {
+      "figure": "fig_two_cases.tex",
+      "panel": "b",
+      "source": "goyal2025 IADPSG 2010 / NICE 2015",
+      "drawn": {
+        "(0, 0)": 54,
+        "(0, 1)": 30,
+        "(1, 0)": 22,
+        "(1, 1)": 247
+      },
+      "top_row_sum": 84,
+      "IADPSG_positive_published": 84,
+      "left_column_sum": 76,
+      "NICE_positive_published": 76,
+      "total": 353,
+      "n_published": 353,
+      "row_marginal_ok": true,
+      "column_marginal_ok": true,
+      "total_ok": true,
+      "ok": true
+    },
+    {
+      "figure": "fig_four_readings.tex",
+      "panel": "c",
+      "source": "guerra2026",
+      "drawn": {
+        "(0, 0)": 326,
+        "(0, 1)": 540,
+        "(1, 0)": 1277,
+        "(1, 1)": 18163
+      },
+      "top_row_sum": 866,
+      "neurologist_positive_published": 866,
+      "left_column_sum": 1603,
+      "protocol_positive_published": 1603,
+      "total": 20306,
+      "n_published": 20306,
+      "row_marginal_ok": true,
+      "column_marginal_ok": true,
+      "total_ok": true,
+      "ok": true
+    }
+  ],
+  "all_panels_consistent": true
+}

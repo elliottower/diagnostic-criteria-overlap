@@ -1,0 +1,42 @@
+claim: vali2021
+title: Quotations from vali2021 used in criterion_agreement_v9e.tex
+source:
+  citation: vali2021
+  local: reference/vali2021.txt
+  sha256: 009b6691eecfe202ce3a900e512dabb31a7f0e3947e768a5c6a4dfd0d62864eb
+  tier: fulltext
+  retrieved_from: Europe PMC PMC8246725
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: true
+claims:
+  joint-classification-rarely-reported:
+    statement: >-
+      Among paired comparative accuracy studies, the joint classification of the
+      two index tests was reported by a small minority.
+    verified: true
+    quotes:
+    - exact: >-
+        Two-by-four table data (revealing the agreement between index tests) were
+        only reported by 9 of 90 paired comparative studies
+      section: Abstract
+  index-test-tables-also-absent:
+    statement: >-
+      Most of the same studies did not report contingency table data for the
+      individual index tests either.
+    verified: true
+    quotes:
+    - exact: >-
+        Such data were reported by only 35 studies; 33 studies provided data for
+        each index test in the comparison, while two studies provided data for
+        only some of the index tests
+      section: 4.3.3 Results of the comparison
+  guidance-does-not-cover-comparisons:
+    statement: >-
+      Existing reporting guidance for diagnostic accuracy studies carries no
+      instructions specific to comparative accuracy studies.
+    verified: true
+    quotes:
+    - exact: >-
+        Existing guidance for reporting diagnostic studies has no specific
+        instructions for comparative accuracy studies
+      section: Introduction

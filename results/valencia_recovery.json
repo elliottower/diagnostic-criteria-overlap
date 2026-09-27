@@ -1,0 +1,36 @@
+{
+  "source": "valencia2024",
+  "comparison": "EWGSOP1 against EWGSOP2, sarcopenia in rheumatoid arthritis",
+  "published_inputs": {
+    "N": 67,
+    "n_A": 29,
+    "n_B": 11,
+    "kappa": "0.409"
+  },
+  "held_out": {
+    "claim": "n01 == 0",
+    "quotation": "All patients diagnosed with sarcopenia under EWGSOP-2 criteria also met the EWGSOP-1 criteria for sarcopenia."
+  },
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "cells": {
+        "n11": 11,
+        "n10": 18,
+        "n01": 0,
+        "n00": 38
+      },
+      "kappa": 0.4094025465230166,
+      "p_o": 0.7313432835820896,
+      "discordance": 0.26865671641791045,
+      "d_A_pos_B_neg": 0.26865671641791045,
+      "d_A_neg_B_pos": 0.0,
+      "kappa_max": 0.40940254652301683,
+      "kappa_min": -0.31243878550440746
+    }
+  ],
+  "every_candidate_nests": true,
+  "kappa_over_kappa_max": [
+    0.9999999999999994
+  ]
+}

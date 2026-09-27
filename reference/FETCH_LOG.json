@@ -1,0 +1,868 @@
+{
+  "abuarafeh2016": {
+    "chars": 2901,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "abuarafeh2016.txt",
+    "note": "PubMed 27799171",
+    "sha256": "b248eb76761be5853f3405bcf4403fd6ffb1f5853f7376f814f2f2b1d97dc79a",
+    "tier": "abstract",
+    "xml": "abuarafeh2016.xml",
+    "xml_sha256": "3b2db877ec15d05ab02a18ad8d791033b2bb5d2c255731762ab2b3b101f70fb4"
+  },
+  "albert2017": {
+    "chars": 20622,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "albert2017.txt",
+    "note": "Europe PMC PMC6251079",
+    "sha256": "8b356302f4046480ff00004ffdfaaaa30e5d342283e78c23ddcf90dbf1dc00bb",
+    "tier": "fulltext",
+    "xml": "albert2017.xml",
+    "xml_sha256": "88c18586ca5665b671da24d383c17ab7d529ad279f04703e5ef21c2255727d17"
+  },
+  "anaya2016grimmer": {
+    "chars": 42772,
+    "extract_cmd": "pdftotext -nopgbrk anaya2016grimmer.pdf anaya2016grimmer.txt",
+    "file": "anaya2016grimmer.txt",
+    "note": "PeerJ Preprints e2400v1, doi 10.7287/peerj.preprints.2400v1. peerj.com returns HTTP 403 to curl behind a Cloudflare challenge; retrieved 2026-09-04 from the Internet Archive snapshot of https://peerj.com/preprints/2400.pdf taken 2018-07-19",
+    "pdf_sha256": "632771465868fdf989aa8ffab1d363c63c558c4bf99e9eacd330b9a07d1963b9",
+    "sha256": "d9b6d5f12cac8d9b8d53c1299d2a6532f6f05d4b95224bb9d4abfe5ca2b76d1f",
+    "tier": "preprint"
+  },
+  "attencorr2022": {
+    "chars": 46514,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "attencorr2022.txt",
+    "note": "Europe PMC PMC9574086",
+    "sha256": "c87ffb14b5077635b02dd9765acff6107239cfdbb2aa4c5b1a0db661128c1bc5",
+    "tier": "fulltext",
+    "xml": "attencorr2022.xml",
+    "xml_sha256": "5538e23d3adae27d87c7621454eb1fc5740cf1faa39e19c99dd69c42e2a6a207"
+  },
+  "bareport2020": {
+    "chars": 34083,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "bareport2020.txt",
+    "note": "Europe PMC PMC7278016",
+    "sha256": "1caa16b2ebabc47735417cc09ffed442ddcc0414b6ade909b202db5b791ea625",
+    "tier": "fulltext",
+    "xml": "bareport2020.xml",
+    "xml_sha256": "aebddb724f7830d6a5d6dd0174aa8485467c706d50da646427ae37f5d141260a"
+  },
+  "benchimol2015": {
+    "chars": 63942,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "benchimol2015.txt",
+    "note": "Europe PMC PMC4595218",
+    "sha256": "1c6075af54d713ef2ff64cd14b41d6340aa1152cd3bc80fa5af4be190e33ad5e",
+    "tier": "fulltext",
+    "xml": "benchimol2015.xml",
+    "xml_sha256": "c008d321bc5e1adff6fd3b2b43edd5d81297a7530492cf75b920214c4d5ab8d7"
+  },
+  "beyondkappa2020": {
+    "alt": {
+      "file": "beyondkappa2020.json",
+      "note": "Crossref 10.1007/s11517-020-02261-2",
+      "sha256": "15533655241fd8daf121dbcd40b659d17ce9ccf3fb5839d1b0519dccf147137b",
+      "tier": "metadata"
+    },
+    "chars": 45996,
+    "extract_cmd": "pdftotext -nopgbrk beyondkappa2020.pdf beyondkappa2020.txt",
+    "file": "beyondkappa2020.txt",
+    "note": "Open-access PDF, doi 10.1007/s11517-020-02261-2",
+    "pdf_sha256": "ff00550622891bdf3719626354ded0c146cc2450fb789df88718730a5d004793",
+    "sha256": "b5d9f7c54e2e97cdb2d0a73fb7c1a1a4a22fa298e051217a21f33779a4ec1552",
+    "tier": "pdf"
+  },
+  "blandaltman1986": {
+    "alt": {
+      "file": "blandaltman1986.json",
+      "note": "Crossref 10.1016/S0140-6736(86)90837-8",
+      "sha256": "ebec3306c0c25b74b9dc5994fbe0d7dc43bf035719bb71630a5601b87d940f4f",
+      "tier": "metadata"
+    },
+    "chars": 24835,
+    "extract_cmd": "html to text, tags stripped",
+    "file": "blandaltman1986.txt",
+    "note": "HTML full text from the author's own site, www-users.york.ac.uk/~mb55/meas/ba.htm",
+    "sha256": "4dfab4c662ecb52cc9e0d719e1ae5f6ebae54c3d69b7b1326a5010f4160f1d54",
+    "tier": "html"
+  },
+  "bossuyt2015": {
+    "chars": 22938,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "bossuyt2015.txt",
+    "note": "Europe PMC PMC4623764",
+    "sha256": "e1a61963ded0286bc6a2f2adb51d72d48e54f268e41bf484151e60d8adb446af",
+    "tier": "fulltext",
+    "xml": "bossuyt2015.xml",
+    "xml_sha256": "062eaf03256c8e46d157c19b0052f671eafbb4a39bb9065106b909bfb837be5b"
+  },
+  "brenner1996": {
+    "file": "brenner1996.json",
+    "note": "Crossref 10.1097/00001648-199603000-00016",
+    "sha256": "89bfe847da0096097b2a44485c86e77790555a3af831347b04c97c1738245b07",
+    "tier": "metadata"
+  },
+  "brown2017grim": {
+    "alt": {
+      "file": "brown2017grim.json",
+      "note": "Crossref 10.1177/1948550616673876",
+      "sha256": "e07dc76a20defdb98c6d42219a780c6be594daafdd3f1ceca584a23396328959",
+      "tier": "metadata"
+    },
+    "chars": 60599,
+    "extract_cmd": "pdftotext -nopgbrk brown2017grim.preprint.pdf brown2017grim.preprint.txt",
+    "file": "brown2017grim.preprint.txt",
+    "note": "PeerJ Preprints e2064v1, doi 10.7287/peerj.preprints.2064v1 -- the preprint of the Social Psychological and Personality Science article, not the published version. peerj.com returns HTTP 403 to curl behind a Cloudflare challenge; retrieved 2026-09-04 from the Internet Archive snapshot of https://peerj.com/preprints/2064.pdf taken 2025-09-06",
+    "pdf_sha256": "d2bdbc278bcf4a756130b2b77652be59ef1090c9355689f68212c4e04acb146e",
+    "sha256": "1cefad55bee9c1aa153443f64d209ae3fa0d89a519225f6d47bfe134746875cf",
+    "tier": "preprint"
+  },
+  "byrt1993": {
+    "file": "byrt1993.json",
+    "note": "Crossref 10.1016/0895-4356(93)90018-V",
+    "sha256": "53a93df733bb97ed494a224cb61e6fb3bae265ff3ae2afef05f58ce88f4e2e92",
+    "tier": "metadata"
+  },
+  "chikere2019": {
+    "chars": 35631,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "chikere2019.txt",
+    "note": "Europe PMC PMC6788703",
+    "sha256": "d549a9937f240e89af1dd567cdcd8b9feb7af2f16479d1984209d867c97d04f6",
+    "tier": "fulltext",
+    "xml": "chikere2019.xml",
+    "xml_sha256": "f74e1cead0aea3a6e23e88e68058dc6504e6c620dc60e7ebbc23f7a2611db3fc"
+  },
+  "crewson2005": {
+    "chars": 619,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "crewson2005.txt",
+    "note": "PubMed 15855085",
+    "sha256": "f06a44a4c3e74196ef79e05fe1ee84b0e203898079ae816b16e05010c23e15a3",
+    "tier": "abstract",
+    "xml": "crewson2005.xml",
+    "xml_sha256": "e3090085b7ac045921b36e72d71ba97ce84a72c2f3801ef5881dc2727be601de"
+  },
+  "daghi2026": {
+    "chars": 29440,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "daghi2026.txt",
+    "note": "Europe PMC PMC13147731",
+    "sha256": "a449a94f225ca2375b31ed54511ccd620b75bafbaf0a8863ab12f4f65d326736",
+    "tier": "fulltext",
+    "xml": "daghi2026.xml",
+    "xml_sha256": "b5a211d559ea9b0bf768102d90ff1de4f2d8a6d5613a1b07f8e88812fc7a623f"
+  },
+  "dobra_algebraic": {
+    "chars": 65971,
+    "extract_cmd": "pdftotext -nopgbrk dobra_algebraic.pdf dobra_algebraic.txt",
+    "file": "dobra_algebraic.txt",
+    "note": "Author copy of the chapter in Emerging Applications of Algebraic Geometry (The IMA Volumes in Mathematics and its Applications 149, pages 63-88), doi 10.1007/978-0-387-09686-5_3, from sites.stat.washington.edu/adobra/Files/Papers/IMA_final_27_03-revised.pdf, retrieved 2026-09-04; it carries no book pagination",
+    "pdf_sha256": "748ab7c02bb26feff5dfccd5fcc76d96bce5cc60d8fcc8051f76cfa2f1ba4af5",
+    "sha256": "67e5a9687eecd6cb6028ad40663a1e5d6ea383bd1aaccfbac4ba9ea758954979",
+    "tier": "preprint"
+  },
+  "duan2020": {
+    "file": "duan2020.json",
+    "note": "Crossref 10.1111/biom.13133",
+    "sha256": "85fec64cee4761e75c840be882549750335c5f637eabe71fb72c8fc040b44ca1",
+    "tier": "metadata"
+  },
+  "expertpanel2025": {
+    "alt": {
+      "file": "expertpanel2025.json",
+      "note": "Crossref 10.1186/s41512-025-00195-7",
+      "sha256": "51f8d54847263bb74e4ec7171ea5f5e3fda22059ce06e61eb08fcf38e1d2cefc",
+      "tier": "metadata"
+    },
+    "chars": 37358,
+    "extract_cmd": "pdftotext -nopgbrk expertpanel2025.pdf expertpanel2025.txt",
+    "file": "expertpanel2025.txt",
+    "note": "Open-access PDF, doi 10.1186/s41512-025-00195-7",
+    "pdf_sha256": "9abdec48f63d5c73fae9fa3dbaeeafffe3a2ddcfa040f4b098fb4c63850231c1",
+    "sha256": "a9ab387393bcc685646090c55ba92827d728ac0c30cc203da2033ec4ffd4797c",
+    "tier": "pdf"
+  },
+  "fda2007diagnostic": {
+    "chars": 79242,
+    "extract_cmd": "pdftotext",
+    "file": "reference/fda2007diagnostic.txt",
+    "note": "FDA guidance PDF, fda.gov/media/71147/download, retrieved 2026-08-26",
+    "sha256": "b2a25ea9eb0777e2c88a728f3c2e845edba3c3a6446fd1ecbb432791bbd4836b",
+    "tier": "fulltext",
+    "xml": "",
+    "xml_sha256": ""
+  },
+  "flight2015": {
+    "file": "flight2015.json",
+    "note": "Crossref 10.1002/pst.1659",
+    "sha256": "eb046769c02b4dcb9d2d4f188acb94e044b5f0ea1142e8a0730239fb026636ae",
+    "tier": "metadata"
+  },
+  "gerke2020": {
+    "chars": 34083,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "gerke2020.txt",
+    "note": "Europe PMC PMC7278016",
+    "sha256": "1caa16b2ebabc47735417cc09ffed442ddcc0414b6ade909b202db5b791ea625",
+    "tier": "fulltext",
+    "xml": "gerke2020.xml",
+    "xml_sha256": "aebddb724f7830d6a5d6dd0174aa8485467c706d50da646427ae37f5d141260a"
+  },
+  "gps5499": {
+    "file": "gps5499.json",
+    "note": "Crossref 10.1002/gps.5499",
+    "sha256": "1b6f4f3ac0afd8539c7694959780403b1b08785034daf1367141ea56dbed79f0",
+    "tier": "metadata"
+  },
+  "gueder2012": {
+    "chars": 36134,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "gueder2012.txt",
+    "note": "Europe PMC PMC3299632",
+    "sha256": "4621373bb366911ffcce40c241b9e0bb5c74712dda785b99038f16961c05b1c6",
+    "tier": "fulltext",
+    "xml": "g\u00fcder2012.xml",
+    "xml_sha256": "49f024c8af1f1b5bbaac1b4492183854a086fa45ebcd240a66292f717ea6e4b8"
+  },
+  "guerra2026": {
+    "chars": 39559,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "guerra2026.txt",
+    "note": "Europe PMC PMC12971826",
+    "sha256": "45d77598f77f9c99806a2a6f77dac4d45d34b97501c044436323d6cf9e7e3984",
+    "tier": "fulltext",
+    "xml": "guerra2026.xml",
+    "xml_sha256": "2c7bc4da62cbf9ec80cf22e9680ecd1e9d8630eb72633e780a2bb98a11db271a"
+  },
+  "guyot2012": {
+    "chars": 44097,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "guyot2012.txt",
+    "note": "Europe PMC PMC3313891",
+    "sha256": "1b18946946ce5104596428f3b1e071b8006a6f95994406083e0894e9b08110af",
+    "tier": "fulltext",
+    "xml": "guyot2012.xml",
+    "xml_sha256": "436d05693db69f04a384802e6a23e00c7501fb4d386bd40d36cf07fb26a33a6c"
+  },
+  "gwet2008": {
+    "file": "gwet2008.json",
+    "note": "Crossref 10.1348/000711006X126600",
+    "sha256": "0343fbdfa6c5665bd44704a00e78652b5b2120325c0e93dbf7b8316d5fc844cf",
+    "tier": "metadata"
+  },
+  "heathers2018sprite": {
+    "chars": 63692,
+    "extract_cmd": "pdftotext -nopgbrk heathers2018sprite.pdf heathers2018sprite.txt",
+    "file": "heathers2018sprite.txt",
+    "note": "PeerJ Preprints e26968v1, doi 10.7287/peerj.preprints.26968v1. peerj.com returns HTTP 403 to curl behind a Cloudflare challenge; retrieved 2026-09-04 from the Internet Archive snapshot of https://peerj.com/preprints/26968.pdf taken 2026-02-21",
+    "pdf_sha256": "b8d5a3e13ab65bfbe35b73ec84ae6be6d7a6dd399bfa3384d90a8fb9eeb2cdbe",
+    "sha256": "d337eb2a94316f3db4e6105c0bfef87162a6463bd00c8fbb5430ca4fd6eb7fb8",
+    "tier": "preprint"
+  },
+  "hripcsak2002": {
+    "file": "hripcsak2002.json",
+    "note": "Crossref 10.1016/S1532-0464(02)00500-2",
+    "sha256": "8d24c9fca21f42a05fbd3d433219a224b053e9aaa4c7f2c51c7a1a9318ea278a",
+    "tier": "metadata"
+  },
+  "hutchinson1993": {
+    "file": "hutchinson1993.json",
+    "note": "Crossref 10.1002/nur.4770160410",
+    "sha256": "90566d7f5cb6bdd0c0a21bf44a2d0b8b1d8a8cd679f591288435e3470e6de886",
+    "tier": "metadata"
+  },
+  "inoue2012": {
+    "chars": 24787,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "heianza2012.txt",
+    "note": "Europe PMC PMC3474758 (key renamed from heianza2012: the article is Inoue et al.)",
+    "sha256": "58ec133841f07af67301fe2ccdee5720793a7e87cf04ffb1cf6c575484ea403d",
+    "tier": "fulltext",
+    "xml": "heianza2012.xml",
+    "xml_sha256": "a56571ed44b4075a7f07241f3d2a2141e4dddc1a47515ade886e3600d6470a79"
+  },
+  "jung_scrutiny": {
+    "chars": 51042,
+    "extract_cmd": "html to text, tags stripped; CRAN index page and vignette concatenated",
+    "file": "jung_scrutiny.txt",
+    "html": "jung_scrutiny.html",
+    "html_sha256": "f8ec86d3fe8e5e2d146fb2c088dc34a97a7498f541b4d3b31d3190cb2bf0991d",
+    "note": "R package scrutiny 0.6.1, doi 10.32614/CRAN.package.scrutiny. Software, not a paper: cran.r-project.org/web/packages/scrutiny/index.html and the 'Consistency tests in depth' vignette at cran.r-project.org/web/packages/scrutiny/vignettes/consistency-tests-in-depth.html, both retrieved 2026-09-04",
+    "sha256": "9bbd2ce45c65300bbd498bc31f0ae16ece2435a310601b5a821117d545732578",
+    "tier": "software",
+    "vignette_html": "jung_scrutiny.vignette.html",
+    "vignette_sha256": "8c234e9e238a4d94ad72561451d7036c99dc454c4e6e6554c041188cbf57dc4a"
+  },
+  "kappabeyond2020": {
+    "chars": 9610,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "kappabeyond2020.txt",
+    "note": "Europe PMC PMC7222679",
+    "sha256": "2eecec7f3c9263590e4b3889cd5f9de159e8e4a08e1743ce5b0e618d4bf7f3bb",
+    "tier": "fulltext",
+    "xml": "kappabeyond2020.xml",
+    "xml_sha256": "f06061a79798cfc5097e157ff5d635d73aeab95db36551e9046f60a30e629a7d"
+  },
+  "kappaconsid2023": {
+    "alt": {
+      "file": "kappaconsid2023.json",
+      "note": "Crossref 10.1186/s12885-023-11325-z",
+      "sha256": "4bd225541f0e8b228eaa988b84d196e9cd0930b341ee9db31b161ff4a5131938",
+      "tier": "metadata"
+    },
+    "chars": 20644,
+    "extract_cmd": "pdftotext -nopgbrk kappaconsid2023.pdf kappaconsid2023.txt",
+    "file": "kappaconsid2023.txt",
+    "note": "Open-access PDF, doi 10.1186/s12885-023-11325-z",
+    "pdf_sha256": "904e4bf44704a13dc8761430ce3325201eaf73f62201a9653b9d3cf80f5fe019",
+    "sha256": "85550be05a8be3df33630ad0d99cc57f5f16b6cef047bdfc1ae4a9c83f48cb43",
+    "tier": "pdf"
+  },
+  "kerr2014": {
+    "chars": 34122,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "kerr2014.txt",
+    "note": "NCBI PMC PMC3918180",
+    "sha256": "cac11be57d8bf721c613164a8eb6c1439f2a60e4ae4db36b8bf24814657ce6f8",
+    "tier": "fulltext",
+    "xml": "kerr2014.xml",
+    "xml_sha256": "116a1d6687689167ea74915674ac08d8d424ccd8b6c8abc082e1ae873a68eedb"
+  },
+  "kottner2011": {
+    "chars": 2143,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "kottner2011.txt",
+    "note": "PubMed 21130355",
+    "sha256": "0be898e9046606d55d6b897cf6726c1a14f24720e4c14e250bcdccdc9fca317b",
+    "tier": "abstract",
+    "xml": "kottner2011.xml",
+    "xml_sha256": "e2893d1033ae95ed50f1ed5071e9a64b8dad3f97fca767a04dcd0a00d688dadd"
+  },
+  "kottner2011--checklist": {
+    "chars": 2405,
+    "extract_cmd": "pdftotext -layout",
+    "file": "kottner2011.checklist.txt",
+    "note": "GRRAS Table 1 checklist, all 15 items. Regenerate with pdftotext, not scripts/render_text.py, which overwrites kottner2011.txt with the abstract.",
+    "pdf": "kottner2011.pdf",
+    "pdf_sha256": "40033b726e6caa3336af0b61615c454494698ba7d5ff80b9accd524e2e0199e3",
+    "sha256": "f091337df58b3aeb6319d5c0b05874b1785e7bbd0b4f2c42fca744bdc41b714b",
+    "tier": "fulltext"
+  },
+  "kraemer1988": {
+    "chars": 1272,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "kraemer1988.txt",
+    "note": "PubMed 3193139",
+    "sha256": "6d35fdadfa66aa675578ca0e982d79da625e337d07de958e543a1642945fcc03",
+    "tier": "abstract",
+    "xml": "kraemer1988.xml",
+    "xml_sha256": "7ad8ec91ac7f0d11e33ec01589f9e11e7c4024e9ef2eff75f15202659d411f3e"
+  },
+  "krippendorff2011": {
+    "file": "krippendorff2011.json",
+    "note": "Crossref 10.1080/19312458.2011.568376",
+    "sha256": "68fac37513eed17cceaac7c791fe23e415e74afa3ebbf0371aa43648cdbcc5c3",
+    "tier": "metadata"
+  },
+  "lucas2010": {
+    "chars": 2239,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "lucas2010.txt",
+    "note": "PubMed 20056381",
+    "sha256": "0bec812cfdad03675e2750ff755e96739d53e4342c6a2a56dd816fc49f2fc99c",
+    "tier": "abstract",
+    "xml": "lucas2010.xml",
+    "xml_sha256": "c3fa15882410cae452c0000e56a55a641e1004544b78f7b11e1b9e4735112a5d"
+  },
+  "mahmoudi2026": {
+    "chars": 35775,
+    "extract_cmd": "pdftotext -nopgbrk <publisher pdf> mahmoudi2026.txt",
+    "file": "mahmoudi2026.txt",
+    "note": "Publisher PDF, Eur J Neurol 2026;33(1):e70469, open access",
+    "sha256": "6fdbcad9cd5384d7eedb567642931a05baedc8fa885ee374e277454e2d4d50e9",
+    "tier": "pdf"
+  },
+  "mana2026": {
+    "chars": 54092,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "mana2026.txt",
+    "note": "NCBI PMC PMC13435195",
+    "sha256": "6025f95126ff061ae0a14b621c59604830618583b13e2cb633e8b140589ad933",
+    "tier": "fulltext",
+    "xml": "mana2026.xml",
+    "xml_sha256": "559964a6b7b89ba86941845f25ae4eb66605e1781badf58b6934460977680fbc"
+  },
+  "mcardle2014": {
+    "alt": {
+      "chars": 5856,
+      "extract_cmd": "python3 scripts/render_text.py",
+      "file": "mcardle2014.abstract.txt",
+      "note": "PubMed 25261504",
+      "sha256": "07b0f67a96de77182a8efbfd68acbd149870d387b4439827045bce809c80e10e",
+      "tier": "abstract",
+      "xml": "mcardle2014.xml",
+      "xml_sha256": "8fb801ab36047842af4c0de9dc1fd939d52bfaa386a3cda8e27d34b6a81248ca"
+    },
+    "chars": 44248,
+    "extract_cmd": "pdftotext -nopgbrk <publisher pdf> mcardle2014.txt",
+    "file": "mcardle2014.txt",
+    "note": "Publisher PDF, Neurology 2014;83(18):1653-60",
+    "sha256": "463a5d659edbe176de7cca821e4192393b2ab7fe4701449494a842eec0c1f4de",
+    "tier": "pdf"
+  },
+  "mdsrevisit2025": {
+    "alt": {
+      "file": "mdsrevisit2025.json",
+      "note": "Crossref 10.1038/s41531-025-01206-6",
+      "sha256": "ff7a53d05127520d8e99a4f6ffa7867ff8fbbc6751db8e1b889b43a3c62df757",
+      "tier": "metadata"
+    },
+    "chars": 58313,
+    "extract_cmd": "pdftotext -nopgbrk mdsrevisit2025.pdf mdsrevisit2025.txt",
+    "file": "mdsrevisit2025.txt",
+    "note": "Open-access PDF, doi 10.1038/s41531-025-01206-6",
+    "pdf_sha256": "87f2e5ee160c360eb1ddb16bec82ed98e821733512954da16a094c6686f3c55c",
+    "sha256": "dc8574b207f2f69dc5eb78622722ae07f72dc114aa5fedad057ac1008cc778d2",
+    "tier": "pdf"
+  },
+  "meagher2014": {
+    "chars": 44281,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "meagher2014.txt",
+    "note": "Europe PMC PMC4207319",
+    "sha256": "e18a6874027a02822c98c3821cdfbb0b591f36796ea57bc01dcd842fc58cff44",
+    "tier": "fulltext",
+    "xml": "meagher2014.xml",
+    "xml_sha256": "706d0eb2f6bb24c820b30b667e02f964412e6aa3f234c4d0763d7be8b19e6ccd"
+  },
+  "mestre2023": {
+    "file": "mestre2023.xml",
+    "note": "PubMed 37156735",
+    "sha256": "b24687816062ff246c8709cd3d0e9895187e76c717dbae4fb1e46eb8d39e44dd",
+    "tier": "abstract"
+  },
+  "metafor_conv2x2": {
+    "chars": 17293,
+    "extract_cmd": "Rscript -e 'tools::Rd2txt(tools::Rd_db(\"metafor\")[[\"conv.2x2.Rd\"]])'",
+    "file": "metafor_conv2x2.txt",
+    "note": "Help page for conv.2x2, metafor 5.0-1, rendered from the installed package's Rd source. Software documentation, not an article: there is no DOI and the text is versioned with the package.",
+    "sha256": "2c3a093344d24c9ab61c3412ab5600d6d422c16a0ae243853aa99af90c90aab8",
+    "tier": "documentation"
+  },
+  "multiagree2020": {
+    "alt": {
+      "file": "multiagree2020.json",
+      "note": "Crossref 10.1186/s12874-020-01022-x",
+      "sha256": "96c50028f6dcf68e8f6efb4787feec9c28b8edaa6d76a544968cbd03a23b36e9",
+      "tier": "metadata"
+    },
+    "chars": 65591,
+    "extract_cmd": "pdftotext -nopgbrk multiagree2020.pdf multiagree2020.txt",
+    "file": "multiagree2020.txt",
+    "note": "Open-access PDF, doi 10.1186/s12874-020-01022-x",
+    "pdf_sha256": "aacbb685fde3cbaa7af2bb0dee676eb8c83b1e755f6a96e8de82a70ad506a316",
+    "sha256": "394ce27f7ddd126fc6fd01c620ca3f2954a86de18bcf335b72a8dcb7ae069baf",
+    "tier": "pdf"
+  },
+  "myers2024": {
+    "chars": 43387,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "myers2024.txt",
+    "note": "Europe PMC PMC11740172",
+    "sha256": "f557ec7f2299173f2403103d6e5fa24669f9068bd73f05eb264a082f59b56332",
+    "tier": "fulltext",
+    "xml": "myers2024.xml",
+    "xml_sha256": "28e74bade800117a22f24a7f02a8574c470597658f767b02f8d7bbc671c7a318"
+  },
+  "nuijten2020statcheck": {
+    "chars": 20919,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "nuijten2020statcheck.txt",
+    "note": "Europe PMC PMC7540394",
+    "sha256": "96029d3df7021451a1a1009c5010a024ffc0d1c195c8c84ddbad81e1ba4aab2c",
+    "tier": "fulltext",
+    "xml": "nuijten2020statcheck.xml",
+    "xml_sha256": "531123199d3fbdff0e1968a29fb709a0291fe6301fe9af0dfcd64f7bf7f32d22"
+  },
+  "pencina2008": {
+    "file": "pencina2008.xml",
+    "note": "PubMed 17569110",
+    "sha256": "80d51715b9d02eb00e3884d3ee9b13ccac22f0e025b0b0a5e0b9ba3e341075d1",
+    "tier": "abstract"
+  },
+  "pepe2011": {
+    "file": "pepe2011.txt",
+    "note": "PubMed 21555714; PMC3139963 is a PDF-only deposit and the PDF route is blocked",
+    "sha256": "49709b0232a0e6640c3775d5eff0a2c79d3e7147cb650ace167f649a94a62d24",
+    "tier": "abstract"
+  },
+  "postuma2018": {
+    "chars": 5052,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "postuma2018.txt",
+    "note": "PubMed 30145797",
+    "sha256": "9ea4f7641567e2cc3d3cae6789766819685535e8b9099afecc562f7e65a0a657",
+    "tier": "abstract",
+    "xml": "postuma2018.xml",
+    "xml_sha256": "03d5d468aea8fb07aa6780781aa310fd6ff9e369b4777a66acdb5ab95bade732"
+  },
+  "raters2025": {
+    "alt": {
+      "file": "raters2025.json",
+      "note": "Crossref 10.3758/s13428-025-02746-8",
+      "sha256": "4c4e2099d7562076c9e23adc774627cbd05921dbfea4764cdc783e0ee423a96b",
+      "tier": "metadata"
+    },
+    "chars": 82736,
+    "extract_cmd": "pdftotext -nopgbrk raters2025.pdf raters2025.txt",
+    "file": "raters2025.txt",
+    "note": "Open-access PDF, doi 10.3758/s13428-025-02746-8",
+    "pdf_sha256": "54d337d1a8885452c9cc8f5b981398eb9617d56e86df4bb8173ad7469dee2107",
+    "sha256": "327a13b12fc6d9c587dfebc1c5b264f6abccf9d142a2b4a5fe50a1e25dd320ed",
+    "tier": "pdf"
+  },
+  "ruperto2012": {
+    "chars": 16423,
+    "extract_cmd": "pdftotext",
+    "file": "reference/ruperto2012.txt",
+    "note": "J Rheumatol editorial, jrheum.org/content/39/8/1503.full.pdf, retrieved 2026-08-26",
+    "sha256": "482077c69df500c7b667211506077ca2d8ed880f6022d36812cadd3f87944318",
+    "tier": "fulltext",
+    "xml": "",
+    "xml_sha256": ""
+  },
+  "sage2016": {
+    "chars": 11896,
+    "extract_cmd": "html to text, tags stripped",
+    "file": "sage2016.txt",
+    "html": "sage2016.html",
+    "html_sha256": "9869c735bc3e5d1688201eebcfa85895294d1da4df3e74501f91def56f68b4ac",
+    "note": "Abstract only. European Journal of Operational Research 250(1):91-100, doi 10.1016/j.ejor.2015.09.011, is closed at Elsevier; OpenAlex, Unpaywall and Semantic Scholar all record no open-access copy, and no author copy is on the web. Abstract and bibliographic record from RePEc/IDEAS, ideas.repec.org/a/eee/ejores/v250y2016i1p91-100.html, retrieved 2026-09-04",
+    "sha256": "58210f5f3e11244bfb48798eba802b0caf78a0a9396782f7517eedf6f5d81bbd",
+    "tier": "abstract"
+  },
+  "schofield2021": {
+    "file": "schofield2021.json",
+    "note": "Crossref 10.1002/sim.8999",
+    "sha256": "0c2209408624e9e30b5a8c459a11ba80b0b2fb890e05bb821b07adca39770d0a",
+    "tier": "metadata"
+  },
+  "scoping2026": {
+    "chars": 57902,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "scoping2026.txt",
+    "note": "Europe PMC PMC13088789",
+    "sha256": "3e8666dcf360429dc1ea68d8b21c6f482380994c8b654ed2daa7a578722da805",
+    "tier": "fulltext",
+    "xml": "scoping2026.xml",
+    "xml_sha256": "81d7078b7d34aacc974286cc310b25c1f5a216a2011902cab938d5212d6e0991"
+  },
+  "scott1955": {
+    "file": "scott1955.json",
+    "note": "Crossref 10.1086/266577",
+    "sha256": "f4084ffc151b907ded24d6fd24790381d00d866a5cc255aecbd278cd7cc54cf2",
+    "tier": "metadata"
+  },
+  "shankar2014": {
+    "chars": 21498,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "shankar2014.txt",
+    "note": "Europe PMC PMC4236536",
+    "sha256": "646f2eef57a4e8752f5e8a3224959d78e2c517aa9ef1f9f3ce2a857472303482",
+    "tier": "fulltext",
+    "xml": "shankar2014.xml",
+    "xml_sha256": "7c58d24d20d0682eacf779390424a9847dc2e9be903e260f0e8c514ecb19253a"
+  },
+  "shrestha2026": {
+    "chars": 50637,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "shrestha2026.txt",
+    "note": "NCBI PMC PMC13489995",
+    "sha256": "5f7707acdef04f55ea7b4b7941182462802337424e651cfd98016b2a2a4b3e36",
+    "tier": "fulltext",
+    "xml": "shrestha2026.xml",
+    "xml_sha256": "af038b1811e227419a8c912d12692cac9df5610b6d6662e88e9f9943997d975a"
+  },
+  "silveira2022": {
+    "alt": {
+      "chars": 158792,
+      "extract_cmd": "pdftotext -nopgbrk silveira2022.arxiv.pdf silveira2022.arxiv.txt",
+      "file": "silveira2022.arxiv.txt",
+      "note": "arXiv preprint 2203.09628v2, doi 10.48550/arXiv.2203.09628, retrieved 2026-09-04 from https://arxiv.org/pdf/2203.09628",
+      "pdf_sha256": "ce0567ca7b8b22aa28d8859c35477ea005b5b517de3bc7f722b3f38382eee498",
+      "sha256": "3ebc09c73ca2123d23ffd3d39e9e6d8a5e54475fbe777acc17cc24afbfe2b193",
+      "tier": "preprint"
+    },
+    "chars": 72318,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "silveira2022.txt",
+    "note": "Europe PMC PMC10615996",
+    "sha256": "c0a6c3b256e425d47c535184330f7f9fd393f8cf37f0d368c37b5ca3f3610a99",
+    "tier": "fulltext",
+    "xml": "silveira2022.xml",
+    "xml_sha256": "040b0e2e36c1b92c6ab53d6f152f183afc29a1f23a44dffc3772683866f2e932"
+  },
+  "simwright2005": {
+    "file": "simwright2005.json",
+    "note": "Crossref 10.1016/j.jmpt.2005.08.001",
+    "sha256": "9a9eaa80908c65dcc659fb711b3106eb806fa0550446ccf822b1668aed72b27e",
+    "tier": "metadata"
+  },
+  "slavkovic2015": {
+    "alt": {
+      "chars": 73238,
+      "extract_cmd": "pdftotext -nopgbrk slavkovic2015.arxiv.pdf slavkovic2015.arxiv.txt",
+      "file": "slavkovic2015.arxiv.txt",
+      "note": "arXiv:1401.1397v1 [math.ST] 7 January 2014, doi 10.48550/arXiv.1401.1397 -- the preprint of the same article, retrieved 2026-09-04 from arxiv.org/pdf/1401.1397.pdf",
+      "pdf_sha256": "43613c40195e6ed4065e00d2540ec173c447329a29f428c155d81d450cf853ef",
+      "sha256": "4f526b9a5c95b698ab54efdf5fd3ee0666898d00500fb5a2cabbb92b4d3bf7d8",
+      "tier": "preprint"
+    },
+    "chars": 73244,
+    "extract_cmd": "pdftotext -nopgbrk slavkovic2015.pdf slavkovic2015.txt",
+    "file": "slavkovic2015.txt",
+    "note": "Published version, Ann Inst Stat Math 67(4):621-648, doi 10.1007/s10463-014-0471-z, from the Institute of Statistical Mathematics copy at www.ism.ac.jp/editsec/aism/pdf/10.1007_s10463-014-0471-z.pdf, retrieved 2026-09-04",
+    "pdf_sha256": "bdca385ff39d00321d8389c84248afd1a4b2eae3a7cec79f8495c60a3240ed07",
+    "sha256": "fe8b5ffe3304c62216b24fb7d05b0d2850d8b98692508e0aa1304f02c0a05a5e",
+    "tier": "pdf"
+  },
+  "slavkovic_bounds": {
+    "chars": 34133,
+    "extract_cmd": "pdftotext -nopgbrk slavkovic_bounds.pdf slavkovic_bounds.txt",
+    "file": "slavkovic_bounds.txt",
+    "note": "Author copy of the published chapter, doi 10.1007/978-3-540-25955-8_3, in Lecture Notes in Computer Science 3050 (PSD 2004), carrying the Springer typesetting and pagination 30-43. Springer is paywalled and www.stat.cmu.edu/~fienberg/DLPapers/Slavkovic-Fienberg-LNCS-2004.pdf now redirects away; retrieved 2026-09-04 from the Internet Archive snapshot taken 2017-08-09",
+    "pdf_sha256": "d0cdbb2720f2ead994c3253958fd0feb19dd12a1f0d8c07890dd1c47e828ae01",
+    "sha256": "34027a03109f5aeae6a8af2a9021b0158902e78389a0eaab2e05fc5aef2c321e",
+    "tier": "pdf"
+  },
+  "sleepwake2022": {
+    "chars": 60142,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "sleepwake2022.txt",
+    "note": "Europe PMC PMC9313077",
+    "sha256": "14ec84e0f6ecc923db0dbb23432a46f67d539132068b3b1bb2ad646014c0c7aa",
+    "tier": "fulltext",
+    "xml": "sleepwake2022.xml",
+    "xml_sha256": "5529c1d6f32f12ba014e509a8812fc99841cd1a46ce80016e691b8fae93a1614"
+  },
+  "spearman1904": {
+    "file": "spearman1904.json",
+    "note": "Crossref 10.2307/1412159",
+    "sha256": "9ba476dfa6594ff458ca46ce7d6d8651353a9441e70936cc35b8beef9077f831",
+    "tier": "metadata"
+  },
+  "statcheckcritique2024": {
+    "chars": 36358,
+    "extract_cmd": "pdftotext -nopgbrk statcheckcritique2024.pdf statcheckcritique2024.txt",
+    "file": "statcheckcritique2024.txt",
+    "note": "arXiv preprint 2408.07948v1, doi 10.48550/arXiv.2408.07948, retrieved 2026-09-04 from https://arxiv.org/pdf/2408.07948. No published version resolves in Crossref or PubMed",
+    "pdf_sha256": "ed7e08827bd8e016159412c0f19d4a2b5be2cdd803dc4685a863a38b1e685adc",
+    "sha256": "05660e2383506e3ad859e42d5455cf95a7a6e05ed6183fc78fdc8c85d203df2a",
+    "tier": "preprint"
+  },
+  "thompson1988": {
+    "chars": 1491,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "thompson1988.txt",
+    "note": "PubMed 3057117",
+    "sha256": "385ba891cc838557c00faa1c5d60024e3a141b895828005992d1052142aa7188",
+    "tier": "abstract",
+    "xml": "thompson1988.xml",
+    "xml_sha256": "0687fd2b349c17bdb2d04f3e444489cb7f701b29ff9e4eefb932367df7375572"
+  },
+  "thompson1990": {
+    "file": "thompson1990.json",
+    "note": "Crossref 10.1097/00001648-199009000-00005",
+    "sha256": "9acdb0ba2e9569536b9cb251aa41adbcab1fcba098b2435e3489e30bc5e172fb",
+    "tier": "metadata"
+  },
+  "vali2021": {
+    "chars": 33973,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "vali2021.txt",
+    "note": "Europe PMC PMC8246725",
+    "sha256": "009b6691eecfe202ce3a900e512dabb31a7f0e3947e768a5c6a4dfd0d62864eb",
+    "tier": "fulltext",
+    "xml": "vali2021.xml",
+    "xml_sha256": "36c91e3f5125577e0f723e2c03c8cf83c8d168349d6601a76d12b54afb57fc98"
+  },
+  "vanbelle2025": {
+    "chars": 55943,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "vanbelle2025.txt",
+    "note": "Europe PMC PMC12531475",
+    "sha256": "c1e30e8186aefccd1b77451855e955ea7ad0457a915f860ae3fa2122fb21c588",
+    "tier": "fulltext",
+    "xml": "vanbelle2025.xml",
+    "xml_sha256": "bcf8ba792f9845eed1ff257819dbb2ce70b234efc5a16d824de3d010aa5a6f72"
+  },
+  "vanbelle2025b": {
+    "file": "vanbelle2025b.json",
+    "note": "Crossref 10.1111/bmsp.70021",
+    "sha256": "dc97b0c6d0bbbfbd4d6c0dbb502290fae7c996aeb0ed13f3cb464e9be3a929bb",
+    "tier": "metadata"
+  },
+  "veroniki2013": {
+    "chars": 2653,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "veroniki2013.txt",
+    "note": "PubMed 26053541",
+    "sha256": "336f2d6978090d5024e9c9de3e833b123a3120b35c4a2ea664ffdd78770892cb",
+    "tier": "abstract",
+    "xml": "veroniki2013.xml",
+    "xml_sha256": "69a7397e4744de6374927e405d8646ebc2e9942c255a1789185dd6f6570fb548"
+  },
+  "vogelgesang2024": {
+    "chars": 4247,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "vogelgesang2024.txt",
+    "note": "PubMed 38428541",
+    "sha256": "a95144d884ace558187cc81fc4a1fb9515369d238c52052c26231708ccf421ad",
+    "tier": "abstract",
+    "xml": "vogelgesang2024.xml",
+    "xml_sha256": "a55ae85348508921092598b81f56926cf7fab1ae32329102a5e885f54791f093"
+  },
+  "vonelm2007": {
+    "alt": {
+      "chars": 18521,
+      "extract_cmd": "python3 scripts/render_text.py",
+      "file": "vonelm2007.txt",
+      "note": "Europe PMC PMC2020495",
+      "sha256": "28b1f6a353f87e0c6cb61e2f37e39b8de3921ce7d33bb087f71c6c8912311e1c",
+      "tier": "fulltext",
+      "xml": "vonelm2007.xml",
+      "xml_sha256": "d7cbea34ab5d980e710b681b7120b24e0229a8bd64445b66c98c67e5c4825367"
+    },
+    "chars": 29469,
+    "extract_cmd": "pdftotext -nopgbrk vonelm2007.pdf vonelm2007.txt",
+    "file": "vonelm2007.txt",
+    "note": "PLoS Medicine open-access PDF, which carries the STROBE checklist table the PMC XML omits",
+    "pdf_sha256": "5969e378c7492e254a97911ceea84db2a0f34aef2680dd261a57c182d292cf8b",
+    "sha256": "85cc054e8725b14f740c958a085d70deff43fcd82b6f012e931de8f9b8b558fc",
+    "tier": "pdf"
+  },
+  "wang2020": {
+    "chars": 40085,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "wang2020.txt",
+    "note": "NCBI PMC PMC7233794",
+    "sha256": "6742266e3c4ff042e3125d06d56ea800fa37bf37e2e7c9804913b1893b531568",
+    "tier": "fulltext",
+    "xml": "wang2020.xml",
+    "xml_sha256": "f0367e12d16073d0182219b499de9bc8f10ccdb584ce33048f4a9d1ce0636b82"
+  },
+  "warrens2014marginal": {
+    "chars": 24543,
+    "extract_cmd": "pdftotext -nopgbrk warrens2014marginal.pdf warrens2014marginal.txt",
+    "file": "warrens2014marginal.txt",
+    "note": "Open-access PDF, doi 10.1155/2014/759527. downloads.hindawi.com returns HTTP 403 to curl behind a Cloudflare challenge; retrieved 2026-09-04 from the Internet Archive snapshot of https://downloads.hindawi.com/archive/2014/759527.pdf taken 2023-12-03",
+    "pdf_sha256": "b8c91de48ab7863cbf3309e24ea2908cdeba65f3e0a81c2f8f4eece8eeeabb9f",
+    "sha256": "62fd9f19f8c7eed0417b4ab0ed01fe5e79fadeb47d81b1111cf94d884a4c0bb4",
+    "tier": "pdf"
+  },
+  "warrens2021": {
+    "file": "warrens2021.json",
+    "note": "Crossref 10.1007/s11634-020-00394-8",
+    "sha256": "66d1bb2bee6eaee8cf80be00f777718d569b550e4cc9947cbdbb5037c5db8666",
+    "tier": "metadata"
+  },
+  "westbury2023": {
+    "chars": 44901,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "westbury2023.txt",
+    "note": "Europe PMC PMC9891989",
+    "sha256": "a833f6fb91b2930c100b5c46c29f1a427b6ff4a518f03293c62444d3447631b2",
+    "tier": "fulltext",
+    "xml": "westbury2023.xml",
+    "xml_sha256": "638fbbd9e80728a9c12395c21842880552681c35b9d5c120cb5f62478670d1ad"
+  },
+  "wilson2024": {
+    "chars": 77903,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "wilson2024.txt",
+    "note": "Europe PMC PMC11535492",
+    "sha256": "8c687da3f34a03cafdfb96abc58a058e0fff31d1424401194313172c035972c5",
+    "tier": "fulltext",
+    "xml": "wilson2024.xml",
+    "xml_sha256": "580f79a41b552d0424d54d754e9e4d5acee282105d63d82bbbede07f813775a9"
+  },
+  "wongpakaran2013": {
+    "file": "wongpakaran2013.json",
+    "note": "Crossref 10.1186/1471-2288-13-61",
+    "sha256": "345ccce5ca16b456b67fa67f2df305087cf0b1ea33e2b75b2ccdee0de0715b68",
+    "tier": "metadata"
+  },
+  "wright2014": {
+    "chars": 61897,
+    "extract_cmd": "pdftotext -nopgbrk wright2014.pdf wright2014.txt",
+    "file": "wright2014.txt",
+    "note": "Author manuscript dated 17 June 2014 of the Computers & Operations Research article, doi 10.1016/j.cor.2014.07.002; it carries no journal pagination. Elsevier is paywalled, and the author copy at sites.miamioh.edu/byran-smucker/files/2022/02/pub_2014_wright_smucker.pdf now returns HTTP 404; retrieved 2026-09-04 from the Internet Archive snapshot taken 2024-09-22",
+    "pdf_sha256": "52a1ed87254e3eab8ea4d9425a9a8089dd687a89841033aafbd53dd9838c8297",
+    "sha256": "eaf0423d1b55ea0fed2e7f791277cd2802ba656fa7f9624b0dbf6e093dd957f0",
+    "tier": "preprint"
+  },
+  "wright_cellbounds": {
+    "chars": 61244,
+    "extract_cmd": "pdftotext -nopgbrk wright_cellbounds.pdf wright_cellbounds.txt",
+    "file": "wright_cellbounds.txt",
+    "note": "Open-access PDF from the Journal of Privacy and Confidentiality, journalprivacyconfidentiality.org/index.php/jpc/article/download/633/616/, doi 10.29012/jpc.v5i2.633, retrieved 2026-09-04. The article header reads \"Journal of Privacy and Confidentiality (2013) 5, Number 2, 133-156\"; the publisher's landing page and Crossref both date the issue 1 February 2014",
+    "pdf_sha256": "97d939df8b3cbf67f83208836322d7e365e4f641e07fe3a886062322b05155c4",
+    "sha256": "159454bb8a11c7473f489c473e9c6f0bfeed05183ea3a58254d4c742e149838c",
+    "tier": "pdf"
+  },
+  "yang2021": {
+    "extract_cmd": "pdftotext -layout {} -",
+    "file": "yang2021.txt",
+    "note": "Amsterdam UMC repository copy, pdftotext -layout",
+    "sha256": "1dbb38bd92e47e19f56a9df108d8a351864d9dadcdf91f25f4f75391c3167743",
+    "tier": "pdf"
+  },
+  "yu2021": {
+    "chars": 10201,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "yu2021.txt",
+    "note": "PubMed 33591014",
+    "sha256": "9fa3510c09a902e05e9e3a88735421a803bde6c5d6eb44a6c8e2bfd75c7bb5ee",
+    "tier": "abstract",
+    "xml": "yu2021.xml",
+    "xml_sha256": "645789d2ee3ffa33399946b06a5c9d3eaa2dad28a896f79f80946ee778899800"
+  },
+  "zhang2019": {
+    "chars": 23704,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "zhang2019.txt",
+    "note": "Europe PMC PMC6812642",
+    "sha256": "814dfd6d3b43f9fb53b0b7f6d09abe6b89364bf276660181413207f8a8622701",
+    "tier": "fulltext",
+    "xml": "zhang2019.xml",
+    "xml_sha256": "5824a41a3f23eae6b0d37a8e7a281600227bd25c9a9810ecb22b6abbb680005a"
+  },
+  "zhangalbert2012": {
+    "file": "zhangalbert2012.json",
+    "note": "Crossref 10.1111/j.1541-0420.2012.01789.x",
+    "sha256": "6aa5ab42b3c3f42e0bc5e46c0126398a15058ce48ce6d7a0cb9d799a401556d8",
+    "tier": "metadata"
+  },
+  "zhu2016": {
+    "chars": 3707,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "zhu2016.txt",
+    "note": "PubMed 27341648",
+    "sha256": "811a68f019718d77ec881f83a14a8fc5168f70712fc04a84cbbccbf8e51f572f",
+    "tier": "abstract",
+    "xml": "zhu2016.xml",
+    "xml_sha256": "feb81bdd288fda2af983464e0efcd81219a4a8f5561cb0d6bf07f80f456b5a1b"
+  },
+  "zipoli2003": {
+    "chars": 2263,
+    "extract_cmd": "python3 scripts/render_text.py",
+    "file": "zipoli2003.txt",
+    "note": "PubMed 14582774",
+    "sha256": "db1b70862ef9d1341cd05d284dcb4c54c4dcb57f18a21fc0a70f3cdacfcdbb51",
+    "tier": "abstract",
+    "xml": "zipoli2003.xml",
+    "xml_sha256": "117df37311ca2705b6e9f419deed7556f55fa47368217b8ec8675855d8a1d7ae"
+  }
+}

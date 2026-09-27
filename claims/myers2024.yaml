@@ -1,0 +1,41 @@
+claim: myers2024
+title: Quotations from myers2024 used in criterion_agreement_v9f.tex
+source:
+  citation: myers2024
+  local: reference/myers2024.txt
+  sha256: f557ec7f2299173f2403103d6e5fa24669f9068bd73f05eb264a082f59b56332
+  tier: fulltext
+  retrieved_from: Europe PMC PMC11740172
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: true
+claims:
+  reconstruction-already-performed:
+    statement: >-
+      A systematic review of diagnostic-criteria agreement reconstructed the
+      missing cells of its comparison tables from marginals, percentages or the
+      published kappa, returning one table per pairing.
+    verified: true
+    quotes:
+    - exact: >-
+        If not all cells in the table were explicitly defined by the author, they
+        were reconstructed using row or column totals/percents or kappa
+        statistics
+      section: Methods
+    - exact: was used to recreate the tables
+      section: Methods
+      note: >-
+        The source continues "and estimate these statistics", which names the
+        other use of the same tool and does not qualify the reconstruction.
+  authority-in-the-layout:
+    statement: >-
+      The same review nominates one criterion as the standard in its layout while
+      computing only symmetric agreement statistics, and elsewhere records that no
+      gold standard exists for the condition.
+    verified: true
+    quotes:
+    - exact: one set of diagnostic criteria (standard)
+      section: Methods
+    - exact: another set of diagnostic criteria (comparison) would be compared to
+      section: Methods
+    - exact: "widely accepted ‘Gold Standard’ diagnostic criterion for FASD"
+      section: Discussion

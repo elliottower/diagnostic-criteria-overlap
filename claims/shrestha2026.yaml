@@ -1,0 +1,17 @@
+claim: shrestha2026
+title: Quotations from shrestha2026 used in criterion_agreement_v1.tex
+source:
+  citation: shrestha2026
+  local: reference/shrestha2026.txt
+  sha256: 5f7707acdef04f55ea7b4b7941182462802337424e651cfd98016b2a2a4b3e36
+  tier: fulltext
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: false
+claims:
+  reference-standard-is-clinical-judgment:
+    statement: The ALS comparison names expert clinical diagnosis as its reference standard, absent any pathognomonic test.
+    verified: true
+    quotes:
+    - exact: As no pathognomonic diagnostic test exists for ALS, the reference standard was the final clinical diagnosis assigned
+        in each included study
+    - exact: based on expert clinical assessment at follow-up

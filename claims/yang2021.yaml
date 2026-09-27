@@ -1,0 +1,29 @@
+claim: yang2021
+title: Quotations from yang2021 used in criterion_agreement_v9e.tex
+source:
+  citation: yang2021
+  local: reference/yang2021.txt
+  sha256: 1dbb38bd92e47e19f56a9df108d8a351864d9dadcdf91f25f4f75391c3167743
+  tier: pdf
+  retrieved_from: Amsterdam UMC institutional repository copy (CC BY), rendered with pdftotext -layout
+  extract_cmd: "none -- artifact is already text"
+  read_in_full: true
+claims:
+  two-by-four-is-the-joint-object:
+    statement: >-
+      In a paired comparative accuracy design the object recording how two index
+      tests classified the same patients is the two-by-four table, which is the
+      joint classification stratified by the reference standard.
+    verified: true
+    quotes:
+    - exact: >-
+        cross-classifies results of two index tests against each other separately
+        for partici
+      section: 4.1 Fully paired design
+      note: >-
+        The sentence runs across a column break in the two-column layout, and the
+        text render inserts the Box 2 float between "partici-" and "pants". The
+        quotation is pinned as the two fragments either side of that break rather
+        than shortened to the part that matches.
+    - exact: pants with and those without the target condition
+      section: 4.1 Fully paired design

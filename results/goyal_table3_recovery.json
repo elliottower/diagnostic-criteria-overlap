@@ -1,0 +1,184 @@
+{
+  "source": "goyal2025, Table 3",
+  "N": 353,
+  "n_IADPSG": 84,
+  "unique_from_kappa_and_disagreement": 7,
+  "unique_from_kappa_alone": 10,
+  "empty_candidate_set": [
+    "NZSSD 2004",
+    "EASD 1996",
+    "JSOG 1984"
+  ],
+  "rows": [
+    {
+      "criterion": "NICE 2015",
+      "n_b": 76,
+      "kappa": "0.580",
+      "printed_disagreement_percent": "14.7",
+      "tables_from_kappa_and_disagreement": 1,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 54,
+        "n10": 30,
+        "n01": 22,
+        "n00": 247
+      },
+      "discordant": 52,
+      "discordant_percent_exact": "14.73",
+      "printed_is_truncation_not_rounding": false
+    },
+    {
+      "criterion": "ADIPS 1998",
+      "n_b": 69,
+      "kappa": "0.609",
+      "printed_disagreement_percent": "13.3",
+      "tables_from_kappa_and_disagreement": 1,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 53,
+        "n10": 31,
+        "n01": 16,
+        "n00": 253
+      },
+      "discordant": 47,
+      "discordant_percent_exact": "13.31",
+      "printed_is_truncation_not_rounding": false
+    },
+    {
+      "criterion": "DIPSI 2009",
+      "n_b": 64,
+      "kappa": "0.456",
+      "printed_disagreement_percent": "18.1",
+      "tables_from_kappa_and_disagreement": 1,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 42,
+        "n10": 42,
+        "n01": 22,
+        "n00": 247
+      },
+      "discordant": 64,
+      "discordant_percent_exact": "18.13",
+      "printed_is_truncation_not_rounding": false
+    },
+    {
+      "criterion": "WHO 1999",
+      "n_b": 64,
+      "kappa": "0.456",
+      "printed_disagreement_percent": "18.1",
+      "tables_from_kappa_and_disagreement": 1,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 42,
+        "n10": 42,
+        "n01": 22,
+        "n00": 247
+      },
+      "discordant": 64,
+      "discordant_percent_exact": "18.13",
+      "printed_is_truncation_not_rounding": false
+    },
+    {
+      "criterion": "CDA 2013",
+      "n_b": 62,
+      "kappa": "0.811",
+      "printed_disagreement_percent": "6.2",
+      "tables_from_kappa_and_disagreement": 1,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 62,
+        "n10": 22,
+        "n01": 0,
+        "n00": 269
+      },
+      "discordant": 22,
+      "discordant_percent_exact": "6.23",
+      "printed_is_truncation_not_rounding": false
+    },
+    {
+      "criterion": "NZSSD 2004",
+      "n_b": 46,
+      "kappa": "0.648",
+      "printed_disagreement_percent": "10.7",
+      "tables_from_kappa_and_disagreement": 0,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 46,
+        "n10": 38,
+        "n01": 0,
+        "n00": 269
+      },
+      "discordant": 38,
+      "discordant_percent_exact": "10.76",
+      "printed_is_truncation_not_rounding": true
+    },
+    {
+      "criterion": "EASD 1996",
+      "n_b": 34,
+      "kappa": "0.509",
+      "printed_disagreement_percent": "14.1",
+      "tables_from_kappa_and_disagreement": 0,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 34,
+        "n10": 50,
+        "n01": 0,
+        "n00": 269
+      },
+      "discordant": 50,
+      "discordant_percent_exact": "14.16",
+      "printed_is_truncation_not_rounding": true
+    },
+    {
+      "criterion": "ADA 2004",
+      "n_b": 28,
+      "kappa": "0.432",
+      "printed_disagreement_percent": "15.9",
+      "tables_from_kappa_and_disagreement": 1,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 28,
+        "n10": 56,
+        "n01": 0,
+        "n00": 269
+      },
+      "discordant": 56,
+      "discordant_percent_exact": "15.86",
+      "printed_is_truncation_not_rounding": false
+    },
+    {
+      "criterion": "CDA 2003",
+      "n_b": 26,
+      "kappa": "0.406",
+      "printed_disagreement_percent": "16.4",
+      "tables_from_kappa_and_disagreement": 1,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 26,
+        "n10": 58,
+        "n01": 0,
+        "n00": 269
+      },
+      "discordant": 58,
+      "discordant_percent_exact": "16.43",
+      "printed_is_truncation_not_rounding": false
+    },
+    {
+      "criterion": "JSOG 1984",
+      "n_b": 28,
+      "kappa": "0.432",
+      "printed_disagreement_percent": "15.8",
+      "tables_from_kappa_and_disagreement": 0,
+      "tables_from_kappa_alone": 1,
+      "cells": {
+        "n11": 28,
+        "n10": 56,
+        "n01": 0,
+        "n00": 269
+      },
+      "discordant": 56,
+      "discordant_percent_exact": "15.86",
+      "printed_is_truncation_not_rounding": true
+    }
+  ]
+}

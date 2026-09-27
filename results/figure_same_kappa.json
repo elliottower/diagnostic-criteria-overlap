@@ -1,0 +1,26 @@
+{
+  "meagher2014_strict": {
+    "cells": {
+      "n11": 155,
+      "n10": 355,
+      "n01": 3,
+      "n00": 255
+    },
+    "union": 513,
+    "kappa_over_kappa_max": 0.9434795407712687,
+    "status": "unique",
+    "N": 768
+  },
+  "guerra2026": {
+    "cells": {
+      "n11": 326,
+      "n10": 540,
+      "n01": 1277,
+      "n00": 18163
+    },
+    "union": 2143,
+    "kappa_over_kappa_max": 0.3154772937218833,
+    "status": "set_identified",
+    "N": 20306
+  }
+}

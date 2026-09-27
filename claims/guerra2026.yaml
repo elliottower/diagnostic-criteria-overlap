@@ -1,0 +1,22 @@
+claim: guerra2026
+title: Quotations from guerra2026 used in neurology_nosology_v9.tex
+source:
+  citation: guerra2026
+  local: reference/guerra2026.txt
+  sha256: 45d77598f77f9c99806a2a6f77dac4d45d34b97501c044436323d6cf9e7e3984
+  tier: fulltext
+  retrieved_from: Europe PMC PMC12971826
+  extract_cmd: "none -- already text; produced by python3 scripts/render_text.py"
+  read_in_full: false
+claims:
+  neurologist-as-gold-standard:
+    statement: The study reports the joint distribution with the neurologist's label as the reference.
+    verified: true
+    quotes:
+    - exact: Neurologist’s definition as Gold Standard
+      section: Table 3
+      note: >-
+        The truncated warning on this quote is a false positive. The text render
+        concatenates the two Table 3 column headers, so the passage is followed
+        immediately by "HERCULES-adapted definition" with no separator. The quote
+        is a complete cell; extending it would cross a cell boundary.

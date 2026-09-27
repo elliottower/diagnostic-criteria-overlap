@@ -1,0 +1,1085 @@
+{
+  "identity": "kappa/kappa_max = 1 - smaller disagreement cell / its expectation under independence",
+  "tables_checked": 63,
+  "identity_holds_exactly_in": 63,
+  "rows": [
+    {
+      "comparison": "guerra2026",
+      "cells": [
+        326,
+        540,
+        1277,
+        18163
+      ],
+      "difference_fixed_by_printed_counts": -737,
+      "smaller_disagreement_cell": 540,
+      "chance_expectation_for_that_cell": 797.6360681571949,
+      "kappa_over_kappa_max": 0.3229995212634003,
+      "one_minus_smaller_over_expected": 0.3229995212634003,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 866,
+      "smaller_cell_share_of_smaller_class": 0.6235565819861432
+    },
+    {
+      "comparison": "westbury2023",
+      "cells": [
+        23,
+        82,
+        129,
+        8936
+      ],
+      "difference_fixed_by_printed_counts": -47,
+      "smaller_disagreement_cell": 82,
+      "chance_expectation_for_that_cell": 103.25954198473282,
+      "kappa_over_kappa_max": 0.20588452724181266,
+      "one_minus_smaller_over_expected": 0.20588452724181266,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 105,
+      "smaller_cell_share_of_smaller_class": 0.780952380952381
+    },
+    {
+      "comparison": "meagher2014_strict",
+      "cells": [
+        155,
+        355,
+        3,
+        255
+      ],
+      "difference_fixed_by_printed_counts": 352,
+      "smaller_disagreement_cell": 3,
+      "chance_expectation_for_that_cell": 53.078125,
+      "kappa_over_kappa_max": 0.9434795407712687,
+      "one_minus_smaller_over_expected": 0.9434795407712687,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 158,
+      "smaller_cell_share_of_smaller_class": 0.0189873417721519
+    },
+    {
+      "comparison": "meagher2014_reading",
+      "cells": [
+        158,
+        0,
+        308,
+        302
+      ],
+      "difference_fixed_by_printed_counts": -308,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 62.130208333333336,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 158,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "meagher2014_permissive",
+      "cells": [
+        455,
+        55,
+        11,
+        247
+      ],
+      "difference_fixed_by_printed_counts": 44,
+      "smaller_disagreement_cell": 11,
+      "chance_expectation_for_that_cell": 156.546875,
+      "kappa_over_kappa_max": 0.9297335063379579,
+      "one_minus_smaller_over_expected": 0.9297335063379579,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 466,
+      "smaller_cell_share_of_smaller_class": 0.023605150214592276
+    },
+    {
+      "comparison": "inoue2012_fpg",
+      "cells": [
+        125,
+        28,
+        49,
+        7126
+      ],
+      "difference_fixed_by_printed_counts": -21,
+      "smaller_disagreement_cell": 28,
+      "chance_expectation_for_that_cell": 149.36708515283843,
+      "kappa_over_kappa_max": 0.8125423685455917,
+      "one_minus_smaller_over_expected": 0.8125423685455917,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 153,
+      "smaller_cell_share_of_smaller_class": 0.1830065359477124
+    },
+    {
+      "comparison": "inoue2012_hba1c",
+      "cells": [
+        129,
+        24,
+        46,
+        7129
+      ],
+      "difference_fixed_by_printed_counts": -22,
+      "smaller_disagreement_cell": 24,
+      "chance_expectation_for_that_cell": 149.34620633187774,
+      "kappa_over_kappa_max": 0.8392995671636472,
+      "one_minus_smaller_over_expected": 0.8392995671636472,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 153,
+      "smaller_cell_share_of_smaller_class": 0.1568627450980392
+    },
+    {
+      "comparison": "inoue2012_ada",
+      "cells": [
+        118,
+        56,
+        57,
+        7097
+      ],
+      "difference_fixed_by_printed_counts": -1,
+      "smaller_disagreement_cell": 56,
+      "chance_expectation_for_that_cell": 169.84470524017468,
+      "kappa_over_kappa_max": 0.67028704297369,
+      "one_minus_smaller_over_expected": 0.67028704297369,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 174,
+      "smaller_cell_share_of_smaller_class": 0.3218390804597701
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / NICE 2015",
+      "cells": [
+        54,
+        30,
+        22,
+        247
+      ],
+      "difference_fixed_by_printed_counts": 8,
+      "smaller_disagreement_cell": 22,
+      "chance_expectation_for_that_cell": 57.91501416430595,
+      "kappa_over_kappa_max": 0.6201330463705733,
+      "one_minus_smaller_over_expected": 0.6201330463705733,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 76,
+      "smaller_cell_share_of_smaller_class": 0.2894736842105263
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / DIPSI 2009",
+      "cells": [
+        42,
+        42,
+        22,
+        247
+      ],
+      "difference_fixed_by_printed_counts": 20,
+      "smaller_disagreement_cell": 22,
+      "chance_expectation_for_that_cell": 48.77053824362606,
+      "kappa_over_kappa_max": 0.5489079925650557,
+      "one_minus_smaller_over_expected": 0.5489079925650557,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 64,
+      "smaller_cell_share_of_smaller_class": 0.34375
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / WHO 1999",
+      "cells": [
+        42,
+        42,
+        22,
+        247
+      ],
+      "difference_fixed_by_printed_counts": 20,
+      "smaller_disagreement_cell": 22,
+      "chance_expectation_for_that_cell": 48.77053824362606,
+      "kappa_over_kappa_max": 0.5489079925650557,
+      "one_minus_smaller_over_expected": 0.5489079925650557,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 64,
+      "smaller_cell_share_of_smaller_class": 0.34375
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / CDA 2013",
+      "cells": [
+        62,
+        22,
+        0,
+        269
+      ],
+      "difference_fixed_by_printed_counts": 22,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 47.24645892351275,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 62,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / ADIPS 1998",
+      "cells": [
+        53,
+        31,
+        16,
+        253
+      ],
+      "difference_fixed_by_printed_counts": 15,
+      "smaller_disagreement_cell": 16,
+      "chance_expectation_for_that_cell": 52.580736543909346,
+      "kappa_over_kappa_max": 0.6957060503205647,
+      "one_minus_smaller_over_expected": 0.6957060503205647,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 69,
+      "smaller_cell_share_of_smaller_class": 0.2318840579710145
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / EASD 1996",
+      "cells": [
+        34,
+        50,
+        0,
+        269
+      ],
+      "difference_fixed_by_printed_counts": 50,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 25.909348441926344,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 34,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / NZSSD 2004",
+      "cells": [
+        46,
+        38,
+        0,
+        269
+      ],
+      "difference_fixed_by_printed_counts": 38,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 35.053824362606235,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 46,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / CDA 2003",
+      "cells": [
+        26,
+        58,
+        0,
+        269
+      ],
+      "difference_fixed_by_printed_counts": 58,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 19.813031161473088,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / ADA 2004",
+      "cells": [
+        28,
+        56,
+        0,
+        269
+      ],
+      "difference_fixed_by_printed_counts": 56,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 21.337110481586404,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 IADPSG 2010 / JSOG 1984",
+      "cells": [
+        28,
+        56,
+        0,
+        269
+      ],
+      "difference_fixed_by_printed_counts": 56,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 21.337110481586404,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / DIPSI 2009",
+      "cells": [
+        64,
+        12,
+        0,
+        277
+      ],
+      "difference_fixed_by_printed_counts": 12,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 50.22096317280453,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 64,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / WHO 1999",
+      "cells": [
+        64,
+        12,
+        0,
+        277
+      ],
+      "difference_fixed_by_printed_counts": 12,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 50.22096317280453,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 64,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / CDA 2013",
+      "cells": [
+        47,
+        29,
+        15,
+        262
+      ],
+      "difference_fixed_by_printed_counts": 14,
+      "smaller_disagreement_cell": 15,
+      "chance_expectation_for_that_cell": 48.65155807365439,
+      "kappa_over_kappa_max": 0.6916851053918714,
+      "one_minus_smaller_over_expected": 0.6916851053918714,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 62,
+      "smaller_cell_share_of_smaller_class": 0.24193548387096775
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / ADIPS 1998",
+      "cells": [
+        67,
+        9,
+        2,
+        275
+      ],
+      "difference_fixed_by_printed_counts": 7,
+      "smaller_disagreement_cell": 2,
+      "chance_expectation_for_that_cell": 54.14447592067989,
+      "kappa_over_kappa_max": 0.9630617904044367,
+      "one_minus_smaller_over_expected": 0.9630617904044367,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 69,
+      "smaller_cell_share_of_smaller_class": 0.028985507246376812
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / EASD 1996",
+      "cells": [
+        34,
+        42,
+        0,
+        277
+      ],
+      "difference_fixed_by_printed_counts": 42,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 26.679886685552407,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 34,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / NZSSD 2004",
+      "cells": [
+        44,
+        32,
+        2,
+        275
+      ],
+      "difference_fixed_by_printed_counts": 30,
+      "smaller_disagreement_cell": 2,
+      "chance_expectation_for_that_cell": 36.096317280453256,
+      "kappa_over_kappa_max": 0.9445926856066551,
+      "one_minus_smaller_over_expected": 0.9445926856066551,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 46,
+      "smaller_cell_share_of_smaller_class": 0.043478260869565216
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / CDA 2003",
+      "cells": [
+        25,
+        51,
+        1,
+        276
+      ],
+      "difference_fixed_by_printed_counts": 50,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 20.402266288951843,
+      "kappa_over_kappa_max": 0.9509858372674257,
+      "one_minus_smaller_over_expected": 0.9509858372674257,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.038461538461538464
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / ADA 2004",
+      "cells": [
+        27,
+        49,
+        1,
+        276
+      ],
+      "difference_fixed_by_printed_counts": 48,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 21.97167138810198,
+      "kappa_over_kappa_max": 0.9544868488911811,
+      "one_minus_smaller_over_expected": 0.9544868488911811,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.03571428571428571
+    },
+    {
+      "comparison": "goyal2025 NICE 2015 / JSOG 1984",
+      "cells": [
+        28,
+        48,
+        0,
+        277
+      ],
+      "difference_fixed_by_printed_counts": 48,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 21.97167138810198,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / WHO 1999",
+      "cells": [
+        64,
+        0,
+        0,
+        289
+      ],
+      "difference_fixed_by_printed_counts": 0,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 52.39660056657224,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 64,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / CDA 2013",
+      "cells": [
+        35,
+        29,
+        27,
+        262
+      ],
+      "difference_fixed_by_printed_counts": 2,
+      "smaller_disagreement_cell": 27,
+      "chance_expectation_for_that_cell": 50.759206798866856,
+      "kappa_over_kappa_max": 0.4680767942850765,
+      "one_minus_smaller_over_expected": 0.4680767942850765,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 62,
+      "smaller_cell_share_of_smaller_class": 0.43548387096774194
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / ADIPS 1998",
+      "cells": [
+        55,
+        9,
+        14,
+        275
+      ],
+      "difference_fixed_by_printed_counts": -5,
+      "smaller_disagreement_cell": 9,
+      "chance_expectation_for_that_cell": 51.49008498583569,
+      "kappa_over_kappa_max": 0.8252090669014085,
+      "one_minus_smaller_over_expected": 0.8252090669014085,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 64,
+      "smaller_cell_share_of_smaller_class": 0.140625
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / EASD 1996",
+      "cells": [
+        30,
+        34,
+        4,
+        285
+      ],
+      "difference_fixed_by_printed_counts": 30,
+      "smaller_disagreement_cell": 4,
+      "chance_expectation_for_that_cell": 27.835694050991503,
+      "kappa_over_kappa_max": 0.8562996132709139,
+      "one_minus_smaller_over_expected": 0.8562996132709139,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 34,
+      "smaller_cell_share_of_smaller_class": 0.11764705882352941
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / NZSSD 2004",
+      "cells": [
+        32,
+        32,
+        14,
+        275
+      ],
+      "difference_fixed_by_printed_counts": 18,
+      "smaller_disagreement_cell": 14,
+      "chance_expectation_for_that_cell": 37.6600566572238,
+      "kappa_over_kappa_max": 0.6282533473747556,
+      "one_minus_smaller_over_expected": 0.6282533473747556,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 46,
+      "smaller_cell_share_of_smaller_class": 0.30434782608695654
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / CDA 2003",
+      "cells": [
+        25,
+        39,
+        1,
+        288
+      ],
+      "difference_fixed_by_printed_counts": 38,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 21.28611898016997,
+      "kappa_over_kappa_max": 0.9530210274154911,
+      "one_minus_smaller_over_expected": 0.9530210274154911,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.038461538461538464
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / ADA 2004",
+      "cells": [
+        26,
+        38,
+        2,
+        287
+      ],
+      "difference_fixed_by_printed_counts": 36,
+      "smaller_disagreement_cell": 2,
+      "chance_expectation_for_that_cell": 22.923512747875353,
+      "kappa_over_kappa_max": 0.9127533366287691,
+      "one_minus_smaller_over_expected": 0.9127533366287691,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.07142857142857142
+    },
+    {
+      "comparison": "goyal2025 DIPSI 2009 / JSOG 1984",
+      "cells": [
+        27,
+        37,
+        1,
+        288
+      ],
+      "difference_fixed_by_printed_counts": 36,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 22.923512747875353,
+      "kappa_over_kappa_max": 0.9563766683143846,
+      "one_minus_smaller_over_expected": 0.9563766683143846,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.03571428571428571
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / CDA 2013",
+      "cells": [
+        35,
+        29,
+        27,
+        262
+      ],
+      "difference_fixed_by_printed_counts": 2,
+      "smaller_disagreement_cell": 27,
+      "chance_expectation_for_that_cell": 50.759206798866856,
+      "kappa_over_kappa_max": 0.4680767942850765,
+      "one_minus_smaller_over_expected": 0.4680767942850765,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 62,
+      "smaller_cell_share_of_smaller_class": 0.43548387096774194
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / ADIPS 1998",
+      "cells": [
+        55,
+        9,
+        14,
+        275
+      ],
+      "difference_fixed_by_printed_counts": -5,
+      "smaller_disagreement_cell": 9,
+      "chance_expectation_for_that_cell": 51.49008498583569,
+      "kappa_over_kappa_max": 0.8252090669014085,
+      "one_minus_smaller_over_expected": 0.8252090669014085,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 64,
+      "smaller_cell_share_of_smaller_class": 0.140625
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / EASD 1996",
+      "cells": [
+        30,
+        34,
+        4,
+        285
+      ],
+      "difference_fixed_by_printed_counts": 30,
+      "smaller_disagreement_cell": 4,
+      "chance_expectation_for_that_cell": 27.835694050991503,
+      "kappa_over_kappa_max": 0.8562996132709139,
+      "one_minus_smaller_over_expected": 0.8562996132709139,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 34,
+      "smaller_cell_share_of_smaller_class": 0.11764705882352941
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / NZSSD 2004",
+      "cells": [
+        32,
+        32,
+        14,
+        275
+      ],
+      "difference_fixed_by_printed_counts": 18,
+      "smaller_disagreement_cell": 14,
+      "chance_expectation_for_that_cell": 37.6600566572238,
+      "kappa_over_kappa_max": 0.6282533473747556,
+      "one_minus_smaller_over_expected": 0.6282533473747556,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 46,
+      "smaller_cell_share_of_smaller_class": 0.30434782608695654
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / CDA 2003",
+      "cells": [
+        25,
+        39,
+        1,
+        288
+      ],
+      "difference_fixed_by_printed_counts": 38,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 21.28611898016997,
+      "kappa_over_kappa_max": 0.9530210274154911,
+      "one_minus_smaller_over_expected": 0.9530210274154911,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.038461538461538464
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / ADA 2004",
+      "cells": [
+        26,
+        38,
+        2,
+        287
+      ],
+      "difference_fixed_by_printed_counts": 36,
+      "smaller_disagreement_cell": 2,
+      "chance_expectation_for_that_cell": 22.923512747875353,
+      "kappa_over_kappa_max": 0.9127533366287691,
+      "one_minus_smaller_over_expected": 0.9127533366287691,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.07142857142857142
+    },
+    {
+      "comparison": "goyal2025 WHO 1999 / JSOG 1984",
+      "cells": [
+        27,
+        37,
+        1,
+        288
+      ],
+      "difference_fixed_by_printed_counts": 36,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 22.923512747875353,
+      "kappa_over_kappa_max": 0.9563766683143846,
+      "one_minus_smaller_over_expected": 0.9563766683143846,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.03571428571428571
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / ADIPS 1998",
+      "cells": [
+        49,
+        13,
+        20,
+        271
+      ],
+      "difference_fixed_by_printed_counts": -7,
+      "smaller_disagreement_cell": 13,
+      "chance_expectation_for_that_cell": 49.88101983002833,
+      "kappa_over_kappa_max": 0.739379827351204,
+      "one_minus_smaller_over_expected": 0.739379827351204,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 62,
+      "smaller_cell_share_of_smaller_class": 0.20967741935483872
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / EASD 1996",
+      "cells": [
+        34,
+        28,
+        0,
+        291
+      ],
+      "difference_fixed_by_printed_counts": 28,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 28.02832861189802,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 34,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / NZSSD 2004",
+      "cells": [
+        46,
+        16,
+        0,
+        291
+      ],
+      "difference_fixed_by_printed_counts": 16,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 37.920679886685555,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 46,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / CDA 2003",
+      "cells": [
+        26,
+        36,
+        0,
+        291
+      ],
+      "difference_fixed_by_printed_counts": 36,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 21.43342776203966,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / ADA 2004",
+      "cells": [
+        28,
+        34,
+        0,
+        291
+      ],
+      "difference_fixed_by_printed_counts": 34,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 23.08215297450425,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 CDA 2013 / JSOG 1984",
+      "cells": [
+        28,
+        34,
+        0,
+        291
+      ],
+      "difference_fixed_by_printed_counts": 34,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 23.08215297450425,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / EASD 1996",
+      "cells": [
+        34,
+        35,
+        0,
+        284
+      ],
+      "difference_fixed_by_printed_counts": 35,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 27.35410764872521,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 34,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / NZSSD 2004",
+      "cells": [
+        46,
+        23,
+        0,
+        284
+      ],
+      "difference_fixed_by_printed_counts": 23,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 37.008498583569406,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 46,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / CDA 2003",
+      "cells": [
+        25,
+        44,
+        1,
+        283
+      ],
+      "difference_fixed_by_printed_counts": 43,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 20.91784702549575,
+      "kappa_over_kappa_max": 0.9521939328277357,
+      "one_minus_smaller_over_expected": 0.9521939328277357,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.038461538461538464
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / ADA 2004",
+      "cells": [
+        27,
+        42,
+        1,
+        283
+      ],
+      "difference_fixed_by_printed_counts": 41,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 22.526912181303118,
+      "kappa_over_kappa_max": 0.9556086519114688,
+      "one_minus_smaller_over_expected": 0.9556086519114688,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.03571428571428571
+    },
+    {
+      "comparison": "goyal2025 ADIPS 1998 / JSOG 1984",
+      "cells": [
+        28,
+        41,
+        0,
+        284
+      ],
+      "difference_fixed_by_printed_counts": 41,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 22.526912181303118,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 EASD 1996 / NZSSD 2004",
+      "cells": [
+        34,
+        0,
+        12,
+        307
+      ],
+      "difference_fixed_by_printed_counts": -12,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 29.569405099150142,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 34,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 EASD 1996 / CDA 2003",
+      "cells": [
+        22,
+        12,
+        4,
+        315
+      ],
+      "difference_fixed_by_printed_counts": 8,
+      "smaller_disagreement_cell": 4,
+      "chance_expectation_for_that_cell": 23.495750708215297,
+      "kappa_over_kappa_max": 0.8297564504461056,
+      "one_minus_smaller_over_expected": 0.8297564504461056,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.15384615384615385
+    },
+    {
+      "comparison": "goyal2025 EASD 1996 / ADA 2004",
+      "cells": [
+        23,
+        11,
+        5,
+        314
+      ],
+      "difference_fixed_by_printed_counts": 6,
+      "smaller_disagreement_cell": 5,
+      "chance_expectation_for_that_cell": 25.30311614730878,
+      "kappa_over_kappa_max": 0.8023958799820868,
+      "one_minus_smaller_over_expected": 0.8023958799820868,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.17857142857142858
+    },
+    {
+      "comparison": "goyal2025 EASD 1996 / JSOG 1984",
+      "cells": [
+        23,
+        11,
+        5,
+        314
+      ],
+      "difference_fixed_by_printed_counts": 6,
+      "smaller_disagreement_cell": 5,
+      "chance_expectation_for_that_cell": 25.30311614730878,
+      "kappa_over_kappa_max": 0.8023958799820868,
+      "one_minus_smaller_over_expected": 0.8023958799820868,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.17857142857142858
+    },
+    {
+      "comparison": "goyal2025 NZSSD 2004 / CDA 2003",
+      "cells": [
+        24,
+        22,
+        2,
+        305
+      ],
+      "difference_fixed_by_printed_counts": 20,
+      "smaller_disagreement_cell": 2,
+      "chance_expectation_for_that_cell": 22.611898016997166,
+      "kappa_over_kappa_max": 0.9115509897268855,
+      "one_minus_smaller_over_expected": 0.9115509897268855,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.07692307692307693
+    },
+    {
+      "comparison": "goyal2025 NZSSD 2004 / ADA 2004",
+      "cells": [
+        26,
+        20,
+        2,
+        305
+      ],
+      "difference_fixed_by_printed_counts": 18,
+      "smaller_disagreement_cell": 2,
+      "chance_expectation_for_that_cell": 24.35127478753541,
+      "kappa_over_kappa_max": 0.9178687761749651,
+      "one_minus_smaller_over_expected": 0.9178687761749651,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.07142857142857142
+    },
+    {
+      "comparison": "goyal2025 NZSSD 2004 / JSOG 1984",
+      "cells": [
+        26,
+        20,
+        2,
+        305
+      ],
+      "difference_fixed_by_printed_counts": 18,
+      "smaller_disagreement_cell": 2,
+      "chance_expectation_for_that_cell": 24.35127478753541,
+      "kappa_over_kappa_max": 0.9178687761749651,
+      "one_minus_smaller_over_expected": 0.9178687761749651,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.07142857142857142
+    },
+    {
+      "comparison": "goyal2025 CDA 2003 / ADA 2004",
+      "cells": [
+        26,
+        0,
+        2,
+        325
+      ],
+      "difference_fixed_by_printed_counts": -2,
+      "smaller_disagreement_cell": 0,
+      "chance_expectation_for_that_cell": 23.937677053824363,
+      "kappa_over_kappa_max": 1.0,
+      "one_minus_smaller_over_expected": 1.0,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.0
+    },
+    {
+      "comparison": "goyal2025 CDA 2003 / JSOG 1984",
+      "cells": [
+        25,
+        1,
+        3,
+        324
+      ],
+      "difference_fixed_by_printed_counts": -2,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 23.937677053824363,
+      "kappa_over_kappa_max": 0.9582248520710059,
+      "one_minus_smaller_over_expected": 0.9582248520710059,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 26,
+      "smaller_cell_share_of_smaller_class": 0.038461538461538464
+    },
+    {
+      "comparison": "goyal2025 ADA 2004 / JSOG 1984",
+      "cells": [
+        27,
+        1,
+        1,
+        324
+      ],
+      "difference_fixed_by_printed_counts": 0,
+      "smaller_disagreement_cell": 1,
+      "chance_expectation_for_that_cell": 25.77903682719547,
+      "kappa_over_kappa_max": 0.9612087912087912,
+      "one_minus_smaller_over_expected": 0.9612087912087912,
+      "identity_holds_exactly": true,
+      "smaller_positive_class": 28,
+      "smaller_cell_share_of_smaller_class": 0.03571428571428571
+    }
+  ],
+  "ordering_check": {
+    "question": "does the smaller disagreement cell as a share of the smaller positive class order tables the same way as kappa/kappa_max?",
+    "corpus_pairs": 28,
+    "corpus_discordant_pairs": [],
+    "all_pairs": 1953,
+    "all_discordant_pairs_count": 40
+  }
+}

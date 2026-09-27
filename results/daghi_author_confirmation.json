@@ -1,0 +1,30 @@
+{
+  "source": "daghi2026",
+  "event": "corresponding author supplied the cross-classification on request",
+  "requested": "2026-09-10",
+  "replied": "2026-09-10",
+  "author_supplied_cells": {
+    "at least one criterion met": {
+      "n11": 153,
+      "n10": 94,
+      "n01": 7,
+      "n00": 116
+    },
+    "at least two criteria met": {
+      "n11": 145,
+      "n10": 34,
+      "n01": 15,
+      "n00": 176
+    },
+    "all three criteria met": {
+      "n11": 116,
+      "n10": 17,
+      "n01": 44,
+      "n00": 193
+    }
+  },
+  "reconstructed_cells_match": true,
+  "cells_appear_in_the_published_article": false,
+  "author_on_the_discrepancy": "confirmed that the 44.6% figure and the cross-classification cannot both describe the same table of 370 patients; reviewing the dataset with their statistician",
+  "note": "The reconstruction was run and recorded before the request was sent (results/daghi_recheck.json)."
+}

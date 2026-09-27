@@ -1,0 +1,206 @@
+{
+  "what_this_measures": "Exhaustive sweep of every non-negative integer table summing to N. For each, the statistic is printed to two decimals and the enumeration run on N, both marginals and that value. Counts are properties of the table space at a given N, not estimates of behaviour in published research.",
+  "sizes": [
+    20,
+    40
+  ],
+  "printed_precision": "two decimals",
+  "by_size": {
+    "20": [
+      {
+        "statistic": "positive_agreement",
+        "tables": 1771,
+        "unique": 1770,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 1
+      },
+      {
+        "statistic": "negative_agreement",
+        "tables": 1771,
+        "unique": 1770,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 1
+      },
+      {
+        "statistic": "jaccard",
+        "tables": 1771,
+        "unique": 1770,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 1
+      },
+      {
+        "statistic": "kappa",
+        "tables": 1771,
+        "unique": 1769,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 2
+      },
+      {
+        "statistic": "pabak",
+        "tables": 1771,
+        "unique": 1771,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 0
+      },
+      {
+        "statistic": "scott_pi",
+        "tables": 1771,
+        "unique": 1769,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 2
+      },
+      {
+        "statistic": "gwet_ac1",
+        "tables": 1771,
+        "unique": 1771,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 0
+      },
+      {
+        "statistic": "prevalence_index",
+        "tables": 1771,
+        "unique": 0,
+        "set": 0,
+        "insufficient": 1771,
+        "undefined": 0
+      },
+      {
+        "statistic": "bias_index",
+        "tables": 1771,
+        "unique": 0,
+        "set": 0,
+        "insufficient": 1771,
+        "undefined": 0
+      },
+      {
+        "statistic": "odds_ratio",
+        "tables": 1771,
+        "unique": 1330,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 441
+      },
+      {
+        "statistic": "mcnemar_odds_ratio",
+        "tables": 1771,
+        "unique": 1442,
+        "set": 98,
+        "insufficient": 0,
+        "undefined": 231
+      },
+      {
+        "statistic": "phi_squared",
+        "tables": 1771,
+        "unique": 1369,
+        "set": 322,
+        "insufficient": 0,
+        "undefined": 80
+      }
+    ],
+    "40": [
+      {
+        "statistic": "positive_agreement",
+        "tables": 12341,
+        "unique": 12340,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 1
+      },
+      {
+        "statistic": "negative_agreement",
+        "tables": 12341,
+        "unique": 12340,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 1
+      },
+      {
+        "statistic": "jaccard",
+        "tables": 12341,
+        "unique": 12340,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 1
+      },
+      {
+        "statistic": "kappa",
+        "tables": 12341,
+        "unique": 12339,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 2
+      },
+      {
+        "statistic": "pabak",
+        "tables": 12341,
+        "unique": 12341,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 0
+      },
+      {
+        "statistic": "scott_pi",
+        "tables": 12341,
+        "unique": 12339,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 2
+      },
+      {
+        "statistic": "gwet_ac1",
+        "tables": 12341,
+        "unique": 12341,
+        "set": 0,
+        "insufficient": 0,
+        "undefined": 0
+      },
+      {
+        "statistic": "prevalence_index",
+        "tables": 12341,
+        "unique": 0,
+        "set": 0,
+        "insufficient": 12341,
+        "undefined": 0
+      },
+      {
+        "statistic": "bias_index",
+        "tables": 12341,
+        "unique": 0,
+        "set": 0,
+        "insufficient": 12341,
+        "undefined": 0
+      },
+      {
+        "statistic": "odds_ratio",
+        "tables": 12341,
+        "unique": 10610,
+        "set": 50,
+        "insufficient": 0,
+        "undefined": 1681
+      },
+      {
+        "statistic": "mcnemar_odds_ratio",
+        "tables": 12341,
+        "unique": 10876,
+        "set": 604,
+        "insufficient": 0,
+        "undefined": 861
+      },
+      {
+        "statistic": "phi_squared",
+        "tables": 12341,
+        "unique": 9857,
+        "set": 2324,
+        "insufficient": 0,
+        "undefined": 160
+      }
+    ]
+  }
+}

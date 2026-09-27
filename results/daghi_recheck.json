@@ -1,0 +1,106 @@
+{
+  "source": "daghi2026, JATS XML (Table 2 and Results text), not the flattened .txt",
+  "question": "do the article's own sensitivity and specificity, for all three combinations, determine tables that return its agreement and kappa?",
+  "reference_total_used": 160,
+  "combinations": [
+    {
+      "combination": "at least one criterion met",
+      "resolved": true,
+      "cells": {
+        "n11": 153,
+        "n10": 94,
+        "n01": 7,
+        "n00": 116
+      },
+      "printed": {
+        "sensitivity": "95.6",
+        "specificity": "55.2",
+        "agreement": "73",
+        "kappa": "0.48"
+      },
+      "recomputed": {
+        "agreement_pct": 72.7,
+        "kappa": 0.4777,
+        "criterion_positive": 247,
+        "criterion_prevalence_pct": 66.8
+      },
+      "agreement_matches": true,
+      "kappa_matches": true
+    },
+    {
+      "combination": "at least two criteria met",
+      "resolved": true,
+      "cells": {
+        "n11": 145,
+        "n10": 34,
+        "n01": 15,
+        "n00": 176
+      },
+      "printed": {
+        "sensitivity": "90.6",
+        "specificity": "83.8",
+        "agreement": "87",
+        "kappa": "0.73"
+      },
+      "recomputed": {
+        "agreement_pct": 86.8,
+        "kappa": 0.734,
+        "criterion_positive": 179,
+        "criterion_prevalence_pct": 48.4
+      },
+      "agreement_matches": true,
+      "kappa_matches": true
+    },
+    {
+      "combination": "all three criteria met",
+      "resolved": true,
+      "cells": {
+        "n11": 116,
+        "n10": 17,
+        "n01": 44,
+        "n00": 193
+      },
+      "printed": {
+        "sensitivity": "72.5",
+        "specificity": "91.9",
+        "agreement": "84",
+        "kappa": "0.66"
+      },
+      "recomputed": {
+        "agreement_pct": 83.5,
+        "kappa": 0.6573,
+        "criterion_positive": 133,
+        "criterion_prevalence_pct": 35.9
+      },
+      "agreement_matches": true,
+      "kappa_matches": true
+    }
+  ],
+  "all_three_reproduce": true,
+  "criterion_prevalence": {
+    "printed": "44.6% (95% CI 39.5-49.8)",
+    "printed_count_on_370": 165,
+    "implied_by_the_other_statistics": 247,
+    "implied_prevalence_pct": 66.8,
+    "wald_ci_for_165_of_370": [
+      39.5,
+      49.7
+    ],
+    "wald_ci_for_247_of_370": [
+      62.0,
+      71.6
+    ],
+    "wald_ci_for_160_of_370": [
+      38.2,
+      48.3
+    ],
+    "printed_interval_matches_165": "to within 0.1 point on the upper bound; the\n                interval for 247 of 370 is nowhere near it",
+    "reading": "The printed interval, 39.5-49.8, is the interval for a proportion at 165 of 370 and not for one at 247 of 370, whose interval is 62.0-71.6. The 44.6% was therefore computed on this sample rather than mistranscribed, and the conflict is between two internally consistent groups of statistics rather than a stray digit."
+  },
+  "contingency_table_printed_anywhere": false,
+  "tables_in_source": [
+    "Table 1 study variables",
+    "Table 2 agreement by criteria combination",
+    "Table 3 agreement by Delphi indicator"
+  ]
+}

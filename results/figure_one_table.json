@@ -1,0 +1,31 @@
+{
+  "cells": {
+    "n11": 326,
+    "n10": 540,
+    "n01": 1277,
+    "n00": 18163
+  },
+  "N": 20306,
+  "readings": [
+    {
+      "name": "Overall accuracy",
+      "value": "91.1%",
+      "printed_by_source": true
+    },
+    {
+      "name": "Sensitivity",
+      "value": "37.6%",
+      "printed_by_source": true
+    },
+    {
+      "name": "Cohen's kappa",
+      "value": "0.22",
+      "printed_by_source": false
+    },
+    {
+      "name": "Jaccard similarity",
+      "value": "15.2%",
+      "printed_by_source": false
+    }
+  ]
+}

@@ -1,0 +1,1721 @@
+{
+  "source": "goyal2025, Table 3 and Figure 2; daghi2026 Table 2",
+  "N": 353,
+  "pairs": 55,
+  "constraints": "kappa and the disagreement percentage, both as printed",
+  "summary": {
+    "half_up": {
+      "non_empty": 40,
+      "unique": 40,
+      "empty": 15
+    },
+    "truncate": {
+      "non_empty": 23,
+      "unique": 23,
+      "empty": 32
+    },
+    "any": {
+      "non_empty": 55,
+      "unique": 55,
+      "empty": 0
+    }
+  },
+  "figures_produced_by": {
+    "kappa": {
+      "either": 28,
+      "half_up only": 27
+    },
+    "disagreement_percent": {
+      "either": 33,
+      "truncate only": 15,
+      "half_up only": 7
+    }
+  },
+  "half_up_via_complement_agreement": 40,
+  "stored_half_up_unique": 40,
+  "stored_half_up_empty": 15,
+  "daghi2026": {
+    "inputs": {
+      "n": 370,
+      "p_a": "44.6",
+      "p_b": "43.2",
+      "kappa": "0.48",
+      "agreement": "73",
+      "marginals_as_percent": true,
+      "agreement_as_percent": true
+    },
+    "by_convention": {
+      "half_up": {
+        "status": "infeasible",
+        "candidates": 0,
+        "reason": "the marginals and kappa admit 1 table(s); adding the published agreement admits none",
+        "tables": []
+      },
+      "truncate": {
+        "status": "infeasible",
+        "candidates": 0,
+        "reason": "no integer count on 370 has a proportion matching p_a = '44.6'",
+        "tables": []
+      },
+      "any": {
+        "status": "infeasible",
+        "candidates": 0,
+        "reason": "the marginals and kappa admit 2 table(s); adding the published agreement admits none",
+        "tables": []
+      }
+    }
+  },
+  "rows": [
+    {
+      "a": "IADPSG 2010",
+      "b": "NICE 2015",
+      "n_a": 84,
+      "n_b": 76,
+      "kappa": "0.580",
+      "disagreement_percent": "14.7",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 54,
+            "n10": 30,
+            "n01": 22,
+            "n00": 247
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 54,
+            "n10": 30,
+            "n01": 22,
+            "n00": 247
+          }
+        ],
+        "any": [
+          {
+            "n11": 54,
+            "n10": 30,
+            "n01": 22,
+            "n00": 247
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "DIPSI 2009",
+      "n_a": 84,
+      "n_b": 64,
+      "kappa": "0.456",
+      "disagreement_percent": "18.1",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 42,
+            "n10": 42,
+            "n01": 22,
+            "n00": 247
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 42,
+            "n10": 42,
+            "n01": 22,
+            "n00": 247
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "WHO 1999",
+      "n_a": 84,
+      "n_b": 64,
+      "kappa": "0.456",
+      "disagreement_percent": "18.1",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 42,
+            "n10": 42,
+            "n01": 22,
+            "n00": 247
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 42,
+            "n10": 42,
+            "n01": 22,
+            "n00": 247
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "CDA 2013",
+      "n_a": 84,
+      "n_b": 62,
+      "kappa": "0.811",
+      "disagreement_percent": "6.2",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 62,
+            "n10": 22,
+            "n01": 0,
+            "n00": 269
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 62,
+            "n10": 22,
+            "n01": 0,
+            "n00": 269
+          }
+        ],
+        "any": [
+          {
+            "n11": 62,
+            "n10": 22,
+            "n01": 0,
+            "n00": 269
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "ADIPS 1998",
+      "n_a": 84,
+      "n_b": 69,
+      "kappa": "0.609",
+      "disagreement_percent": "13.3",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 53,
+            "n10": 31,
+            "n01": 16,
+            "n00": 253
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 53,
+            "n10": 31,
+            "n01": 16,
+            "n00": 253
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "EASD 1996",
+      "n_a": 84,
+      "n_b": 34,
+      "kappa": "0.509",
+      "disagreement_percent": "14.1",
+      "tables": {
+        "half_up": [],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 34,
+            "n10": 50,
+            "n01": 0,
+            "n00": 269
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "NZSSD 2004",
+      "n_a": 84,
+      "n_b": 46,
+      "kappa": "0.648",
+      "disagreement_percent": "10.7",
+      "tables": {
+        "half_up": [],
+        "truncate": [
+          {
+            "n11": 46,
+            "n10": 38,
+            "n01": 0,
+            "n00": 269
+          }
+        ],
+        "any": [
+          {
+            "n11": 46,
+            "n10": 38,
+            "n01": 0,
+            "n00": 269
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "CDA 2003",
+      "n_a": 84,
+      "n_b": 26,
+      "kappa": "0.406",
+      "disagreement_percent": "16.4",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 26,
+            "n10": 58,
+            "n01": 0,
+            "n00": 269
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 26,
+            "n10": 58,
+            "n01": 0,
+            "n00": 269
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "ADA 2004",
+      "n_a": 84,
+      "n_b": 28,
+      "kappa": "0.432",
+      "disagreement_percent": "15.9",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 28,
+            "n10": 56,
+            "n01": 0,
+            "n00": 269
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 28,
+            "n10": 56,
+            "n01": 0,
+            "n00": 269
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "half_up only"
+    },
+    {
+      "a": "IADPSG 2010",
+      "b": "JSOG 1984",
+      "n_a": 84,
+      "n_b": 28,
+      "kappa": "0.432",
+      "disagreement_percent": "15.8",
+      "tables": {
+        "half_up": [],
+        "truncate": [
+          {
+            "n11": 28,
+            "n10": 56,
+            "n01": 0,
+            "n00": 269
+          }
+        ],
+        "any": [
+          {
+            "n11": 28,
+            "n10": 56,
+            "n01": 0,
+            "n00": 269
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "DIPSI 2009",
+      "n_a": 76,
+      "n_b": 64,
+      "kappa": "0.893",
+      "disagreement_percent": "3.3",
+      "tables": {
+        "half_up": [],
+        "truncate": [
+          {
+            "n11": 64,
+            "n10": 12,
+            "n01": 0,
+            "n00": 277
+          }
+        ],
+        "any": [
+          {
+            "n11": 64,
+            "n10": 12,
+            "n01": 0,
+            "n00": 277
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "WHO 1999",
+      "n_a": 76,
+      "n_b": 64,
+      "kappa": "0.893",
+      "disagreement_percent": "3.3",
+      "tables": {
+        "half_up": [],
+        "truncate": [
+          {
+            "n11": 64,
+            "n10": 12,
+            "n01": 0,
+            "n00": 277
+          }
+        ],
+        "any": [
+          {
+            "n11": 64,
+            "n10": 12,
+            "n01": 0,
+            "n00": 277
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "CDA 2013",
+      "n_a": 76,
+      "n_b": 62,
+      "kappa": "0.605",
+      "disagreement_percent": "12.4",
+      "tables": {
+        "half_up": [],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 47,
+            "n10": 29,
+            "n01": 15,
+            "n00": 262
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "ADIPS 1998",
+      "n_a": 76,
+      "n_b": 69,
+      "kappa": "0.905",
+      "disagreement_percent": "3.1",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 67,
+            "n10": 9,
+            "n01": 2,
+            "n00": 275
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 67,
+            "n10": 9,
+            "n01": 2,
+            "n00": 275
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "EASD 1996",
+      "n_a": 76,
+      "n_b": 34,
+      "kappa": "0.560",
+      "disagreement_percent": "11.8",
+      "tables": {
+        "half_up": [],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 34,
+            "n10": 42,
+            "n01": 0,
+            "n00": 277
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "NZSSD 2004",
+      "n_a": 76,
+      "n_b": 46,
+      "kappa": "0.667",
+      "disagreement_percent": "9.6",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 44,
+            "n10": 32,
+            "n01": 2,
+            "n00": 275
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 44,
+            "n10": 32,
+            "n01": 2,
+            "n00": 275
+          }
+        ],
+        "any": [
+          {
+            "n11": 44,
+            "n10": 32,
+            "n01": 2,
+            "n00": 275
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "CDA 2003",
+      "n_a": 76,
+      "n_b": 26,
+      "kappa": "0.427",
+      "disagreement_percent": "14.7",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 25,
+            "n10": 51,
+            "n01": 1,
+            "n00": 276
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 25,
+            "n10": 51,
+            "n01": 1,
+            "n00": 276
+          }
+        ],
+        "any": [
+          {
+            "n11": 25,
+            "n10": 51,
+            "n01": 1,
+            "n00": 276
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "ADA 2004",
+      "n_a": 76,
+      "n_b": 28,
+      "kappa": "0.456",
+      "disagreement_percent": "14.2",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 27,
+            "n10": 49,
+            "n01": 1,
+            "n00": 276
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 27,
+            "n10": 49,
+            "n01": 1,
+            "n00": 276
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "half_up only"
+    },
+    {
+      "a": "NICE 2015",
+      "b": "JSOG 1984",
+      "n_a": 76,
+      "n_b": 28,
+      "kappa": "0.478",
+      "disagreement_percent": "13.5",
+      "tables": {
+        "half_up": [],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 28,
+            "n10": 48,
+            "n01": 0,
+            "n00": 277
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "WHO 1999",
+      "n_a": 64,
+      "n_b": 64,
+      "kappa": "1.000",
+      "disagreement_percent": "0",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 64,
+            "n10": 0,
+            "n01": 0,
+            "n00": 289
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 64,
+            "n10": 0,
+            "n01": 0,
+            "n00": 289
+          }
+        ],
+        "any": [
+          {
+            "n11": 64,
+            "n10": 0,
+            "n01": 0,
+            "n00": 289
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "CDA 2013",
+      "n_a": 64,
+      "n_b": 62,
+      "kappa": "0.459",
+      "disagreement_percent": "15.8",
+      "tables": {
+        "half_up": [],
+        "truncate": [
+          {
+            "n11": 35,
+            "n10": 29,
+            "n01": 27,
+            "n00": 262
+          }
+        ],
+        "any": [
+          {
+            "n11": 35,
+            "n10": 29,
+            "n01": 27,
+            "n00": 262
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "ADIPS 1998",
+      "n_a": 64,
+      "n_b": 69,
+      "kappa": "0.787",
+      "disagreement_percent": "6.5",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 55,
+            "n10": 9,
+            "n01": 14,
+            "n00": 275
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 55,
+            "n10": 9,
+            "n01": 14,
+            "n00": 275
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "EASD 1996",
+      "n_a": 64,
+      "n_b": 34,
+      "kappa": "0.556",
+      "disagreement_percent": "10.7",
+      "tables": {
+        "half_up": [],
+        "truncate": [
+          {
+            "n11": 30,
+            "n10": 34,
+            "n01": 4,
+            "n00": 285
+          }
+        ],
+        "any": [
+          {
+            "n11": 30,
+            "n10": 34,
+            "n01": 4,
+            "n00": 285
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "NZSSD 2004",
+      "n_a": 64,
+      "n_b": 46,
+      "kappa": "0.507",
+      "disagreement_percent": "13.0",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 32,
+            "n10": 32,
+            "n01": 14,
+            "n00": 275
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 32,
+            "n10": 32,
+            "n01": 14,
+            "n00": 275
+          }
+        ],
+        "any": [
+          {
+            "n11": 32,
+            "n10": 32,
+            "n01": 14,
+            "n00": 275
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "CDA 2003",
+      "n_a": 64,
+      "n_b": 26,
+      "kappa": "0.504",
+      "disagreement_percent": "11.3",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 25,
+            "n10": 39,
+            "n01": 1,
+            "n00": 288
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 25,
+            "n10": 39,
+            "n01": 1,
+            "n00": 288
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "ADA 2004",
+      "n_a": 64,
+      "n_b": 28,
+      "kappa": "0.511",
+      "disagreement_percent": "11.3",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 26,
+            "n10": 38,
+            "n01": 2,
+            "n00": 287
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 26,
+            "n10": 38,
+            "n01": 2,
+            "n00": 287
+          }
+        ],
+        "any": [
+          {
+            "n11": 26,
+            "n10": 38,
+            "n01": 2,
+            "n00": 287
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "DIPSI 2009",
+      "b": "JSOG 1984",
+      "n_a": 64,
+      "n_b": 28,
+      "kappa": "0.536",
+      "disagreement_percent": "10.7",
+      "tables": {
+        "half_up": [],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 27,
+            "n10": 37,
+            "n01": 1,
+            "n00": 288
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "CDA 2013",
+      "n_a": 64,
+      "n_b": 62,
+      "kappa": "0.459",
+      "disagreement_percent": "15.8",
+      "tables": {
+        "half_up": [],
+        "truncate": [
+          {
+            "n11": 35,
+            "n10": 29,
+            "n01": 27,
+            "n00": 262
+          }
+        ],
+        "any": [
+          {
+            "n11": 35,
+            "n10": 29,
+            "n01": 27,
+            "n00": 262
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "ADIPS 1998",
+      "n_a": 64,
+      "n_b": 69,
+      "kappa": "0.787",
+      "disagreement_percent": "6.5",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 55,
+            "n10": 9,
+            "n01": 14,
+            "n00": 275
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 55,
+            "n10": 9,
+            "n01": 14,
+            "n00": 275
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "EASD 1996",
+      "n_a": 64,
+      "n_b": 34,
+      "kappa": "0.556",
+      "disagreement_percent": "10.7",
+      "tables": {
+        "half_up": [],
+        "truncate": [
+          {
+            "n11": 30,
+            "n10": 34,
+            "n01": 4,
+            "n00": 285
+          }
+        ],
+        "any": [
+          {
+            "n11": 30,
+            "n10": 34,
+            "n01": 4,
+            "n00": 285
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "NZSSD 2004",
+      "n_a": 64,
+      "n_b": 46,
+      "kappa": "0.507",
+      "disagreement_percent": "13.0",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 32,
+            "n10": 32,
+            "n01": 14,
+            "n00": 275
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 32,
+            "n10": 32,
+            "n01": 14,
+            "n00": 275
+          }
+        ],
+        "any": [
+          {
+            "n11": 32,
+            "n10": 32,
+            "n01": 14,
+            "n00": 275
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "CDA 2003",
+      "n_a": 64,
+      "n_b": 26,
+      "kappa": "0.504",
+      "disagreement_percent": "11.3",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 25,
+            "n10": 39,
+            "n01": 1,
+            "n00": 288
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 25,
+            "n10": 39,
+            "n01": 1,
+            "n00": 288
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "ADA 2004",
+      "n_a": 64,
+      "n_b": 28,
+      "kappa": "0.511",
+      "disagreement_percent": "11.3",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 26,
+            "n10": 38,
+            "n01": 2,
+            "n00": 287
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 26,
+            "n10": 38,
+            "n01": 2,
+            "n00": 287
+          }
+        ],
+        "any": [
+          {
+            "n11": 26,
+            "n10": 38,
+            "n01": 2,
+            "n00": 287
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "WHO 1999",
+      "b": "JSOG 1984",
+      "n_a": 64,
+      "n_b": 28,
+      "kappa": "0.536",
+      "disagreement_percent": "10.7",
+      "tables": {
+        "half_up": [],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 27,
+            "n10": 37,
+            "n01": 1,
+            "n00": 288
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "ADIPS 1998",
+      "n_a": 62,
+      "n_b": 69,
+      "kappa": "0.691",
+      "disagreement_percent": "9.3",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 49,
+            "n10": 13,
+            "n01": 20,
+            "n00": 271
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 49,
+            "n10": 13,
+            "n01": 20,
+            "n00": 271
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "EASD 1996",
+      "n_a": 62,
+      "n_b": 34,
+      "kappa": "0.667",
+      "disagreement_percent": "7.9",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 34,
+            "n10": 28,
+            "n01": 0,
+            "n00": 291
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 34,
+            "n10": 28,
+            "n01": 0,
+            "n00": 291
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "NZSSD 2004",
+      "n_a": 62,
+      "n_b": 46,
+      "kappa": "0.826",
+      "disagreement_percent": "4.5",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 46,
+            "n10": 16,
+            "n01": 0,
+            "n00": 291
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 46,
+            "n10": 16,
+            "n01": 0,
+            "n00": 291
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "CDA 2003",
+      "n_a": 62,
+      "n_b": 26,
+      "kappa": "0.544",
+      "disagreement_percent": "10.2",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 26,
+            "n10": 36,
+            "n01": 0,
+            "n00": 291
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 26,
+            "n10": 36,
+            "n01": 0,
+            "n00": 291
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "half_up only"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "ADA 2004",
+      "n_a": 62,
+      "n_b": 28,
+      "kappa": "0.576",
+      "disagreement_percent": "9.6",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 28,
+            "n10": 34,
+            "n01": 0,
+            "n00": 291
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 28,
+            "n10": 34,
+            "n01": 0,
+            "n00": 291
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "CDA 2013",
+      "b": "JSOG 1984",
+      "n_a": 62,
+      "n_b": 28,
+      "kappa": "0.576",
+      "disagreement_percent": "9.6",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 28,
+            "n10": 34,
+            "n01": 0,
+            "n00": 291
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 28,
+            "n10": 34,
+            "n01": 0,
+            "n00": 291
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "EASD 1996",
+      "n_a": 69,
+      "n_b": 34,
+      "kappa": "0.610",
+      "disagreement_percent": "9.9",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 34,
+            "n10": 35,
+            "n01": 0,
+            "n00": 284
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 34,
+            "n10": 35,
+            "n01": 0,
+            "n00": 284
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "NZSSD 2004",
+      "n_a": 69,
+      "n_b": 46,
+      "kappa": "0.763",
+      "disagreement_percent": "6.5",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 46,
+            "n10": 23,
+            "n01": 0,
+            "n00": 284
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 46,
+            "n10": 23,
+            "n01": 0,
+            "n00": 284
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "CDA 2003",
+      "n_a": 69,
+      "n_b": 26,
+      "kappa": "0.470",
+      "disagreement_percent": "12.7",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 25,
+            "n10": 44,
+            "n01": 1,
+            "n00": 283
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 25,
+            "n10": 44,
+            "n01": 1,
+            "n00": 283
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "ADA 2004",
+      "n_a": 69,
+      "n_b": 28,
+      "kappa": "0.500",
+      "disagreement_percent": "12.2",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 27,
+            "n10": 42,
+            "n01": 1,
+            "n00": 283
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 27,
+            "n10": 42,
+            "n01": 1,
+            "n00": 283
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "half_up only"
+    },
+    {
+      "a": "ADIPS 1998",
+      "b": "JSOG 1984",
+      "n_a": 69,
+      "n_b": 28,
+      "kappa": "0.524",
+      "disagreement_percent": "11.6",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 28,
+            "n10": 41,
+            "n01": 0,
+            "n00": 284
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 28,
+            "n10": 41,
+            "n01": 0,
+            "n00": 284
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "EASD 1996",
+      "b": "NZSSD 2004",
+      "n_a": 34,
+      "n_b": 46,
+      "kappa": "0.831",
+      "disagreement_percent": "3.3",
+      "tables": {
+        "half_up": [],
+        "truncate": [
+          {
+            "n11": 34,
+            "n10": 0,
+            "n01": 12,
+            "n00": 307
+          }
+        ],
+        "any": [
+          {
+            "n11": 34,
+            "n10": 0,
+            "n01": 12,
+            "n00": 307
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "truncate only"
+    },
+    {
+      "a": "EASD 1996",
+      "b": "CDA 2003",
+      "n_a": 34,
+      "n_b": 26,
+      "kappa": "0.709",
+      "disagreement_percent": "4.5",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 22,
+            "n10": 12,
+            "n01": 4,
+            "n00": 315
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 22,
+            "n10": 12,
+            "n01": 4,
+            "n00": 315
+          }
+        ],
+        "any": [
+          {
+            "n11": 22,
+            "n10": 12,
+            "n01": 4,
+            "n00": 315
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "EASD 1996",
+      "b": "ADA 2004",
+      "n_a": 34,
+      "n_b": 28,
+      "kappa": "0.717",
+      "disagreement_percent": "4.5",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 23,
+            "n10": 11,
+            "n01": 5,
+            "n00": 314
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 23,
+            "n10": 11,
+            "n01": 5,
+            "n00": 314
+          }
+        ],
+        "any": [
+          {
+            "n11": 23,
+            "n10": 11,
+            "n01": 5,
+            "n00": 314
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "EASD 1996",
+      "b": "JSOG 1984",
+      "n_a": 34,
+      "n_b": 28,
+      "kappa": "0.717",
+      "disagreement_percent": "4.5",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 23,
+            "n10": 11,
+            "n01": 5,
+            "n00": 314
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 23,
+            "n10": 11,
+            "n01": 5,
+            "n00": 314
+          }
+        ],
+        "any": [
+          {
+            "n11": 23,
+            "n10": 11,
+            "n01": 5,
+            "n00": 314
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "NZSSD 2004",
+      "b": "CDA 2003",
+      "n_a": 46,
+      "n_b": 26,
+      "kappa": "0.632",
+      "disagreement_percent": "6.8",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 24,
+            "n10": 22,
+            "n01": 2,
+            "n00": 305
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 24,
+            "n10": 22,
+            "n01": 2,
+            "n00": 305
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "half_up only"
+    },
+    {
+      "a": "NZSSD 2004",
+      "b": "ADA 2004",
+      "n_a": 46,
+      "n_b": 28,
+      "kappa": "0.670",
+      "disagreement_percent": "6.2",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 26,
+            "n10": 20,
+            "n01": 2,
+            "n00": 305
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 26,
+            "n10": 20,
+            "n01": 2,
+            "n00": 305
+          }
+        ],
+        "any": [
+          {
+            "n11": 26,
+            "n10": 20,
+            "n01": 2,
+            "n00": 305
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "NZSSD 2004",
+      "b": "JSOG 1984",
+      "n_a": 46,
+      "n_b": 28,
+      "kappa": "0.670",
+      "disagreement_percent": "6.2",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 26,
+            "n10": 20,
+            "n01": 2,
+            "n00": 305
+          }
+        ],
+        "truncate": [
+          {
+            "n11": 26,
+            "n10": 20,
+            "n01": 2,
+            "n00": 305
+          }
+        ],
+        "any": [
+          {
+            "n11": 26,
+            "n10": 20,
+            "n01": 2,
+            "n00": 305
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "CDA 2003",
+      "b": "ADA 2004",
+      "n_a": 26,
+      "n_b": 28,
+      "kappa": "0.960",
+      "disagreement_percent": "0.6",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 26,
+            "n10": 0,
+            "n01": 2,
+            "n00": 325
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 26,
+            "n10": 0,
+            "n01": 2,
+            "n00": 325
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "half_up only"
+    },
+    {
+      "a": "CDA 2003",
+      "b": "JSOG 1984",
+      "n_a": 26,
+      "n_b": 28,
+      "kappa": "0.920",
+      "disagreement_percent": "1.1",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 25,
+            "n10": 1,
+            "n01": 3,
+            "n00": 324
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 25,
+            "n10": 1,
+            "n01": 3,
+            "n00": 324
+          }
+        ]
+      },
+      "kappa_produced_by": "half_up only",
+      "disagreement_percent_produced_by": "either"
+    },
+    {
+      "a": "ADA 2004",
+      "b": "JSOG 1984",
+      "n_a": 28,
+      "n_b": 28,
+      "kappa": "0.961",
+      "disagreement_percent": "0.6",
+      "tables": {
+        "half_up": [
+          {
+            "n11": 27,
+            "n10": 1,
+            "n01": 1,
+            "n00": 324
+          }
+        ],
+        "truncate": [],
+        "any": [
+          {
+            "n11": 27,
+            "n10": 1,
+            "n01": 1,
+            "n00": 324
+          }
+        ]
+      },
+      "kappa_produced_by": "either",
+      "disagreement_percent_produced_by": "half_up only"
+    }
+  ]
+}
